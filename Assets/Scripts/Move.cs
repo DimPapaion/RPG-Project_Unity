@@ -21,6 +21,7 @@ public class Move : MonoBehaviour
         {
             MoveToCursor();
         }
+        UpdateAnimMove();
     }
     private void MoveToCursor()
     {
@@ -31,5 +32,13 @@ public class Move : MonoBehaviour
         {
             agent.destination = rayHit.point;
         } 
+    }
+
+    private void UpdateAnimMove()
+    {
+        Vector3 velocity = GetComponent<NavMeshAgent>().velocity;
+        Vector3 velocityLocal = transform.InverseTransformDirection(velocity);
+        float speed = velocityLocal.z;
+        GetComponent<Animator>().SetFloat("Speed", speed);
     }
 }
