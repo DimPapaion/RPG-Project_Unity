@@ -9,7 +9,7 @@ public class FollowCamera : MonoBehaviour
     public float speed = 3.5f;
     
 
-    void Update()
+    private void LateUpdate()
     {
         transform.position = player.position;
 
@@ -21,6 +21,6 @@ public class FollowCamera : MonoBehaviour
 
     public void CameraRot()
     {
-        Debug.Log(Input.GetAxis("Mouse X"));
+        
     }
 }
