@@ -2,12 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using Scripts.Combat;
 using Scripts.Core;
 
 namespace Scripts.Player.Movement
 {
-    public class Move : MonoBehaviour
+    public class Move : MonoBehaviour, IAction
     {
         [SerializeField] Transform target;
         public NavMeshAgent agent;
@@ -27,8 +26,6 @@ namespace Scripts.Player.Movement
         public void StartMoveBehaviour(Vector3 destination)
         {
             GetComponent<ActionSched>().StartAction(this);
-            GetComponent<FightBehaviour>().Cancel();
-            
             MoveTo(destination);
         }
         public void MoveTo(Vector3 destination)
@@ -36,8 +33,8 @@ namespace Scripts.Player.Movement
             agent.destination = destination;
             agent.isStopped = false;
         }
-
-        public void Stop()
+      
+        public void Cancel()
         {
             agent.isStopped = true;
         }

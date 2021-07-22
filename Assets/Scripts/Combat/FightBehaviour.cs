@@ -6,7 +6,7 @@ using Scripts.Core;
 
 namespace Scripts.Combat
 {
-    public class FightBehaviour : MonoBehaviour
+    public class FightBehaviour : MonoBehaviour, IAction
     {
         [SerializeField] float WeaponMeleRange = 2f;
         private Transform target;
@@ -20,7 +20,7 @@ namespace Scripts.Combat
             }
             else
             {
-                GetComponent<Move>().Stop();
+                GetComponent<Move>().Cancel();
             }
         }
 

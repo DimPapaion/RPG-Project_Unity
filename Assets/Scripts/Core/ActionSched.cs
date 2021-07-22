@@ -6,14 +6,14 @@ namespace Scripts.Core
 {
     public class ActionSched : MonoBehaviour
     {
-        MonoBehaviour currentAction;
+        IAction currentAction;
 
-        public void StartAction(MonoBehaviour action)
+        public void StartAction(IAction action)
         {
             if (currentAction == action) return;
             if(currentAction != null)
             {
-                print("Cancelling Action" + currentAction);
+                currentAction.Cancel();
             }
             
             currentAction = action;
