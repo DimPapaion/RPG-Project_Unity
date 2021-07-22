@@ -9,10 +9,15 @@ namespace Scripts.Combat
     public class FightBehaviour : MonoBehaviour, IAction
     {
         [SerializeField] float WeaponMeleRange = 2f;
+        [SerializeField] float AttackDelay = 1.9f;
+
         private Transform target;
+        float lastAttackTime;
 
         private void Update()
         {
+            lastAttackTime += Time.deltaTime;
+
             if (target == null) return;
             if (!GetIsInRange())
             {
@@ -21,6 +26,7 @@ namespace Scripts.Combat
             else
             {
                 GetComponent<Move>().Cancel();
+                AttackBehaviour();
             }
         }
 
@@ -38,6 +44,17 @@ namespace Scripts.Combat
         public void Cancel()
         {
             target = null;
+        }
+
+        //For the Animation Event
+        public void AttackBehaviour()
+        {
+            if( lastAttackTime > AttackDelay)
+            {
+                GetComponent<Animator>().SetTrigger("Attack");
+                lastAttackTime = 0;
+            }
+            
         }
     }
 }
