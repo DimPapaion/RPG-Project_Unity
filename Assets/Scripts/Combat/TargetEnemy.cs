@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Scripts.Combat
 {
 
-
+    [RequireComponent(typeof(Health))]
     public class TargetEnemy : MonoBehaviour
     {
         // Start is called before the first frame update

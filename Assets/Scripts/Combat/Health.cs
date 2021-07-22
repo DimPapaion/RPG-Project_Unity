@@ -8,6 +8,11 @@ namespace Scripts.Combat
     {
         [SerializeField] float healthAmount = 100f;
         bool isDead = false;
+
+        public bool IsDead()
+        {
+            return isDead;
+        }
         public void DamageTaken(float Damage)
         {
             
@@ -27,6 +32,7 @@ namespace Scripts.Combat
             if (isDead) return;
             isDead = true;
             GetComponent<Animator>().SetTrigger("Die");
+            
         }
     }
 }

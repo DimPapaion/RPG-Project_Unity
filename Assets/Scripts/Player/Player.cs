@@ -22,7 +22,7 @@ namespace Scripts.Player
             foreach (RaycastHit hit in hits)
             {
                 TargetEnemy target = hit.transform.GetComponent<TargetEnemy>();
-                if (target == null) continue;
+                if (!GetComponent<FightBehaviour>().CanAttack(target)) continue;
 
                 if (Input.GetMouseButtonDown(0))
                 {
