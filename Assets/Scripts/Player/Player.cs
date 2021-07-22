@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Assets.Scripts.Player.Movement;
-using Assets.Scripts.Combat;
+using Scripts.Player.Movement;
+using Scripts.Combat;
 using System;
 
-namespace Assets.Scripts.Player
+namespace Scripts.Player
 {
     public class Player : MonoBehaviour
     {
@@ -26,7 +26,7 @@ namespace Assets.Scripts.Player
 
                 if (Input.GetMouseButtonDown(0))
                 {
-                    GetComponent<EnemyFight>().Attack(target);
+                    GetComponent<FightBehaviour>().Attack(target);
                 }
                 return true;
             }
@@ -41,7 +41,7 @@ namespace Assets.Scripts.Player
             {
                 if (Input.GetMouseButton(0))
                 {
-                    GetComponent<Move>().MoveTo(rayHit.point);
+                    GetComponent<Move>().StartMoveBehaviour(rayHit.point);
                 }
                 return true;
             }
