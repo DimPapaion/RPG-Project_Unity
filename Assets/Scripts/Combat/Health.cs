@@ -2,17 +2,32 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Health : MonoBehaviour
+namespace Scripts.Combat
 {
-    // Start is called before the first frame update
-    void Start()
+    public class Health : MonoBehaviour
     {
-        
-    }
+        [SerializeField] float healthAmount = 100f;
+        bool isDead = false;
+        public void DamageTaken(float Damage)
+        {
+            
+            if (healthAmount != 0f)
+            {
+                healthAmount = Mathf.Max(healthAmount - Damage, 0);
+                print(healthAmount);
+            }
+            else
+            {
+                Death();
+            }
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        private void Death()
+        {
+            if (isDead) return;
+            isDead = true;
+            GetComponent<Animator>().SetTrigger("Die");
+        }
     }
 }
+
