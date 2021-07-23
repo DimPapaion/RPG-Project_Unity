@@ -2730,6 +2730,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -11150,31 +11151,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 6d01ab68395de604e8468dd7162a5db0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.81599998
+      value: 7.84
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 6d01ab68395de604e8468dd7162a5db0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.67299998
+      value: 1.673
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 6d01ab68395de604e8468dd7162a5db0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 28.7649994
+      value: 28.765
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 6d01ab68395de604e8468dd7162a5db0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: .998003721
+      value: 0.9980037
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 6d01ab68395de604e8468dd7162a5db0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 1.1687942e-07
+      value: 0.00000011687942
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 6d01ab68395de604e8468dd7162a5db0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -.0631563589
+      value: -0.06315636
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 6d01ab68395de604e8468dd7162a5db0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -1.98482475e-08
+      value: -0.000000019848247
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d01ab68395de604e8468dd7162a5db0, type: 3}
@@ -20453,6 +20454,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -22233,6 +22235,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -24418,6 +24421,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -37011,6 +37015,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -38368,6 +38373,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -40732,42 +40738,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1142831593}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1144174417
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: WaterDepthMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
-  m_Width: 1024
-  m_Height: 1024
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthFormat: 2
-  m_ColorFormat: 142
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &1144785821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43076,6 +43046,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1198964723}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1200332398
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterDepthMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 1024
+  m_Height: 1024
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 2
+  m_ColorFormat: 142
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &1200341349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48017,6 +48023,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
