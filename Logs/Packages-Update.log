@@ -45,3 +45,11 @@ The following packages were added:
   com.unity.timeline@1.5.5
   com.unity.ugui@1.0.0
   com.unity.visualscripting@1.6.1
+
+=== Fri Jul 23 18:38:24 2021
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.burst@1.4.4
