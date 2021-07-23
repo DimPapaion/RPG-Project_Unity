@@ -38,7 +38,7 @@ namespace Scripts.Combat
             return Vector3.Distance(transform.position, target.transform.position) < WeaponMeleRange;
         }
 
-        public void Attack(TargetEnemy enemyTarget)
+        public void Attack(GameObject enemyTarget)
         {
             GetComponent<ActionSched>().StartAction(this);
             target = enemyTarget.GetComponent<Health>();
@@ -56,7 +56,7 @@ namespace Scripts.Combat
             GetComponent<Animator>().SetTrigger("StopAttack");
         }
 
-        public bool CanAttack(TargetEnemy enemyTarget)
+        public bool CanAttack(GameObject enemyTarget)
         {
             if(enemyTarget == null) { return false; }
             Health targetHealth = enemyTarget.GetComponent<Health>();
