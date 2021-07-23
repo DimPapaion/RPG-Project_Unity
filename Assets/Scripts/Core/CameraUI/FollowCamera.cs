@@ -14,16 +14,6 @@ namespace Scripts.CameraUI
         private void LateUpdate()
         {
             transform.position = player.position;
-
-            if (Input.GetMouseButtonDown(1))
-            {
-                CameraRot();
-            }
-        }
-
-        public void CameraRot()
-        {
-
         }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using Scripts.Core;
+using Scripts.Combat;
 
 namespace Scripts.Player.Movement
 {
@@ -10,16 +11,18 @@ namespace Scripts.Player.Movement
     {
         [SerializeField] Transform target;
         public NavMeshAgent agent;
-
+        Health health;
 
         void Start()
         {
+            health = GetComponent<Health>();
             agent = GetComponent<NavMeshAgent>();
         }
 
         // Update is called once per frame
         private void Update()
         {
+            agent.enabled = !health.IsDead();
             UpdateAnimMove();
         }
 

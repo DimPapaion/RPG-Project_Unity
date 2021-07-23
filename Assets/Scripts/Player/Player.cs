@@ -5,12 +5,19 @@ using Scripts.Player.Movement;
 using Scripts.Combat;
 using System;
 
+
 namespace Scripts.Player
 {
     public class Player : MonoBehaviour
     {
+        Health health;
+        private void Start()
+        {
+            health = GetComponent<Health>();
+        }
         private void Update()
         {
+            if (health.IsDead()) return;
             if (ApplyCombat()) return;
             if (ApplyMovement()) return;
             print("nothing to do.!");
@@ -27,7 +34,7 @@ namespace Scripts.Player
            
                 if (!GetComponent<FightBehaviour>().CanAttack(target.gameObject)) continue;
 
-                if (Input.GetMouseButtonDown(0))
+                if (Input.GetMouseButton(0))
                 {
                     GetComponent<FightBehaviour>().Attack(target.gameObject);
                 }

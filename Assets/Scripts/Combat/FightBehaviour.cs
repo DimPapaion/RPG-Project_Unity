@@ -14,7 +14,7 @@ namespace Scripts.Combat
         [SerializeField] float WeaponDamage = 20f;
 
         Health target;
-        float lastAttackTime;
+        float lastAttackTime = Mathf.Infinity;
 
         private void Update()
         {
@@ -52,7 +52,7 @@ namespace Scripts.Combat
 
         private void StopAttack()
         {
-            GetComponent<Animator>().ResetTrigger("attack");
+            GetComponent<Animator>().ResetTrigger("Attack");
             GetComponent<Animator>().SetTrigger("StopAttack");
         }
 

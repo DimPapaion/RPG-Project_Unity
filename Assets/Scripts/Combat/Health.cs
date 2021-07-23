@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Scripts.Core;
 
 namespace Scripts.Combat
 {
@@ -32,7 +33,7 @@ namespace Scripts.Combat
             if (isDead) return;
             isDead = true;
             GetComponent<Animator>().SetTrigger("Die");
-            
+            GetComponent<ActionSched>().CancelCurrentAction();
         }
     }
 }
