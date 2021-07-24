@@ -51,7 +51,7 @@ namespace Scripts.Player
             {
                 if (Input.GetMouseButton(0))
                 {
-                    GetComponent<Move>().StartMoveBehaviour(rayHit.point);
+                    GetComponent<Move>().StartMoveBehaviour(rayHit.point, 1f);
                 }
                 return true;
             }

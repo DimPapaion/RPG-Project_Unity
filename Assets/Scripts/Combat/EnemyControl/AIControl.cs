@@ -15,6 +15,8 @@ namespace Scripts.Combat.EnemyControl
         [SerializeField] EnemyPath enemyPath;
         [SerializeField] float waypointTollerance = 1f;
         [SerializeField] float waypointDwellingTime = 1f;
+        [Range(0,1)]
+        [SerializeField] float enemySpeedWander = 0.2f;
 
         FightBehaviour fighter;
         Health health; 
@@ -78,7 +80,7 @@ namespace Scripts.Combat.EnemyControl
             }
             if(timeSinceNextWaypoint > waypointDwellingTime)
             {
-                move.StartMoveBehaviour(nextPos);
+                move.StartMoveBehaviour(nextPos, enemySpeedWander);
             }  
         }
 

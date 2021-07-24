@@ -24,7 +24,7 @@ namespace Scripts.Combat
             if (target.IsDead() == true) return;
             if (!GetIsInRange())
             {
-                GetComponent<Move>().MoveTo(target.transform.position);
+                GetComponent<Move>().MoveTo(target.transform.position, 1f);
             }
             else
             {

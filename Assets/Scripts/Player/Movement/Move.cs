@@ -5,11 +5,13 @@ using UnityEngine.AI;
 using Scripts.Core;
 using Scripts.Combat;
 
+
 namespace Scripts.Player.Movement
 {
     public class Move : MonoBehaviour, IAction
     {
         [SerializeField] Transform target;
+        [SerializeField] float maxSpeed = 6f;
         public NavMeshAgent agent;
         Health health;
 
@@ -26,14 +28,15 @@ namespace Scripts.Player.Movement
             UpdateAnimMove();
         }
 
-        public void StartMoveBehaviour(Vector3 destination)
+        public void StartMoveBehaviour(Vector3 destination, float enemySpeed)
         {
             GetComponent<ActionSched>().StartAction(this);
-            MoveTo(destination);
+            MoveTo(destination, enemySpeed);
         }
-        public void MoveTo(Vector3 destination)
+        public void MoveTo(Vector3 destination, float enemySpeed)
         {
             agent.destination = destination;
+            agent.speed = maxSpeed * Mathf.Clamp01(enemySpeed);
             agent.isStopped = false;
         }
       
