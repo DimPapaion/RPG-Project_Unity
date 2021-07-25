@@ -7,10 +7,14 @@ namespace Scripts.Cinematics
 {
     public class CinematicTrigger : MonoBehaviour
     {
-
+        bool isTriggeredOnce = false; 
         private void OnTriggerEnter(Collider other)
         {
-            GetComponent<PlayableDirector>().Play();
+            if (!isTriggeredOnce && other.gameObject.tag == "Player")
+            {
+                isTriggeredOnce = true;
+                GetComponent<PlayableDirector>().Play();
+            }
         }
     }
 
