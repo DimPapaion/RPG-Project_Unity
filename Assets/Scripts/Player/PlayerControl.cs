@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,7 +9,7 @@ using System;
 
 namespace Scripts.Player
 {
-    public class Player : MonoBehaviour
+    public class PlayerControl : MonoBehaviour
     {
         Health health;
         private void Start()
@@ -31,7 +32,7 @@ namespace Scripts.Player
                 TargetEnemy target = hit.transform.GetComponent<TargetEnemy>();
                 if (target == null) continue;
 
-           
+
                 if (!GetComponent<FightBehaviour>().CanAttack(target.gameObject)) continue;
 
                 if (Input.GetMouseButton(0))
