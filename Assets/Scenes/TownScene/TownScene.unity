@@ -2846,6 +2846,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 190820366}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &194906806 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7024145773567324406, guid: 0807932895afaa249abaef415312789b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6109455287979883908}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &197606025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3125,7 +3131,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8262166, y: 1}
+    m_SensorSize: {x: 2.0074441, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3141,8 +3147,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239788403}
-  m_LocalRotation: {x: 0.59261674, y: 0.38086146, z: -0.37427145, w: 0.6030513}
-  m_LocalPosition: {x: 54.616985, y: 8.240185, z: -3.5340548}
+  m_LocalRotation: {x: 0.50305164, y: 0.4966643, z: -0.48807046, w: 0.5119091}
+  m_LocalPosition: {x: 54.600147, y: 8.240183, z: -3.464325}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1666945818}
@@ -3195,7 +3201,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8262166, y: 1}
+    m_SensorSize: {x: 2.0074441, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3507,42 +3513,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 259763137}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &260658545
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: WaterDepthMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
-  m_Width: 1024
-  m_Height: 1024
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthFormat: 2
-  m_ColorFormat: 142
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &270932667
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11018,6 +10988,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 798032525}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &798149611
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterDepthMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 1024
+  m_Height: 1024
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 2
+  m_ColorFormat: 142
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &805366651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17643,7 +17649,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8262166, y: 1}
+    m_SensorSize: {x: 2.0074441, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -24888,7 +24894,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8262166, y: 1}
+    m_SensorSize: {x: 2.0074441, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -29849,6 +29855,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5836299077788299007, guid: f341fb41c0d827948acc0f9bb7489886,
         type: 3}
+    - target: {fileID: 5795509035027197753, guid: 0807932895afaa249abaef415312789b,
+        type: 3}
+      propertyPath: weaponPref
+      value: 
+      objectReference: {fileID: 100000, guid: cccf6118661e37e499602b684994509b, type: 3}
+    - target: {fileID: 5795509035027197753, guid: 0807932895afaa249abaef415312789b,
+        type: 3}
+      propertyPath: handTransform
+      value: 
+      objectReference: {fileID: 194906806}
     - target: {fileID: 6109455287986140307, guid: 0807932895afaa249abaef415312789b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29976,6 +29992,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5532926941446090301, guid: 0807932895afaa249abaef415312789b, type: 3}
+    - {fileID: 6109455289545411859, guid: 0807932895afaa249abaef415312789b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0807932895afaa249abaef415312789b, type: 3}
 --- !u!1001 &6422979097916450138
 PrefabInstance:

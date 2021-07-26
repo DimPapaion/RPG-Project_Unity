@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Scripts.Player.Movement;
 using Scripts.Core;
-
+using System;
 
 namespace Scripts.Combat
 {
@@ -12,9 +12,17 @@ namespace Scripts.Combat
         [SerializeField] float WeaponMeleRange = 2f;
         [SerializeField] float AttackDelay = 1.9f;
         [SerializeField] float WeaponDamage = 20f;
+        [SerializeField] GameObject weaponPref = null;
+        [SerializeField] Transform handTransform = null;
 
         Health target;
         float lastAttackTime = Mathf.Infinity;
+
+        private void Start()
+        {
+            SpawnWeapon();
+        }
+
 
         private void Update()
         {
@@ -32,7 +40,10 @@ namespace Scripts.Combat
                 AttackBehaviour();
             }
         }
-
+        private void SpawnWeapon()
+        {
+            Instantiate(weaponPref, handTransform);
+        }
         private bool GetIsInRange()
         {
             return Vector3.Distance(transform.position, target.transform.position) < WeaponMeleRange;
