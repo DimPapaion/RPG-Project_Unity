@@ -14,6 +14,10 @@ namespace Scripts.SceneManagment
             
         }
 
+        public void FadeOutImmediate()
+        {
+            canvasGroup.alpha = 1;
+        }
        
        public IEnumerator FadeOut(float time)
         {

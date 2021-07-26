@@ -58,6 +58,8 @@ namespace Scripts.SceneManagment
 
             Portal otherPort = GetOtherPort();
             UpdatePlayer(otherPort);
+
+            wrapper.Save();
             yield return new WaitForSeconds(FadeWaithTime);
             yield return fader.FadeIn(fadeInTime);
             Destroy(gameObject);
