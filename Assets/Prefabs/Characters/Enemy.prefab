@@ -52,6 +52,11 @@ PrefabInstance:
       propertyPath: healthAmount
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 6685480639186093237, guid: fbdd36847fb32a74e8c86cc62bbfeff8,
+        type: 3}
+      propertyPath: uniqueIdentifier
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7480962826314256763, guid: fbdd36847fb32a74e8c86cc62bbfeff8,
         type: 3}
       propertyPath: m_RootOrder

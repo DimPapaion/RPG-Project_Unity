@@ -44,7 +44,17 @@ namespace Scripts.SceneManagment
             Fader fader = FindObjectOfType<Fader>();
 
             yield return fader.FadeOut(fadeOutTime);
+
+            // Saving the level
+
+            SavingWrap wrapper = FindObjectOfType<SavingWrap>();
+            wrapper.Save();
+
             yield return SceneManager.LoadSceneAsync(sceneToLoad);
+
+            //Load current Level
+            
+            wrapper.Load();
 
             Portal otherPort = GetOtherPort();
             UpdatePlayer(otherPort);

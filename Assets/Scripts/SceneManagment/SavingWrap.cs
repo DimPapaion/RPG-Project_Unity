@@ -8,7 +8,7 @@ namespace Scripts.SceneManagment
 {
     public class SavingWrap : MonoBehaviour
     {
-        const string defaultSaveFile = "save";
+        const string defaultSaveFile = "Save01";
         void Update()
         {
             if (Input.GetKeyDown(KeyCode.L))
@@ -21,13 +21,14 @@ namespace Scripts.SceneManagment
             }
         }
 
-        private void Save()
+        public void Save()
         {
-            GetComponent<SavingSystem>().Load(defaultSaveFile);
+            GetComponent<SavingSystem>().Save(defaultSaveFile);
         }
 
-        private void Load()
+        public void Load()
         {
+            print("Savving....");
             GetComponent<SavingSystem>().Load(defaultSaveFile);
         }
     }

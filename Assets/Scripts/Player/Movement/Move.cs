@@ -55,12 +55,15 @@ namespace Scripts.Player.Movement
 
         public object CaptureState()
         {
-            return transform.position;
+            return new SerializableVector3( transform.position);
         }
 
         public void RestoreState(object state)
         {
-            throw new System.NotImplementedException();
+            SerializableVector3 position = (SerializableVector3)state;
+            agent.enabled = false;
+            transform.position = position.ToVector();
+            agent.enabled = true;
         }
     }
 }

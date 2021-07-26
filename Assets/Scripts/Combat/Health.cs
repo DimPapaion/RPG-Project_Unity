@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Scripts.Core;
+using Scripts.Saving;
 
 namespace Scripts.Combat
 {
-    public class Health : MonoBehaviour
+    public class Health : MonoBehaviour, ISaveable
     {
         [SerializeField] float healthAmount = 100f;
         bool isDead = false;
@@ -16,8 +17,7 @@ namespace Scripts.Combat
         }
         public void DamageTaken(float Damage)
         {
-            
-            if (healthAmount != 0f)
+            if (healthAmount != 0)
             {
                 healthAmount = Mathf.Max(healthAmount - Damage, 0);
                 print(healthAmount);
@@ -34,6 +34,20 @@ namespace Scripts.Combat
             isDead = true;
             GetComponent<Animator>().SetTrigger("Die");
             GetComponent<ActionSched>().CancelCurrentAction();
+        }
+
+        public object CaptureState()
+        {
+            return healthAmount;
+        }
+
+        public void RestoreState(object state)
+        {
+            healthAmount = (float)state;
+            if (healthAmount == 0)
+            {
+                Death();
+            }
         }
     }
 }
