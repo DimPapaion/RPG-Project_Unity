@@ -16,9 +16,12 @@ GameObject:
   - component: {fileID: 5633163924396866880}
   - component: {fileID: 7460444530101086663}
   - component: {fileID: 4869634089292870110}
+  - component: {fileID: 1188031637}
+  - component: {fileID: 3161270583534886006}
+  - component: {fileID: 6685480639186093237}
   m_Layer: 0
   m_Name: Character
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,6 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  maxSpeed: 7
   agent: {fileID: 4831362153287683857}
 --- !u!95 &620400080
 Animator:
@@ -146,7 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 234200a7a445ce04cb778e1e80691c97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WeaponMeleRange: 2
+  WeaponMeleRange: 1
   AttackDelay: 1.9
   WeaponDamage: 20
 --- !u!114 &7460444530101086663
@@ -174,3 +178,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthAmount: 1000
+--- !u!136 &1188031637
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4271237734213146033}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 2.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &3161270583534886006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4271237734213146033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 200ea41686f02fc4580df0fcf97f84e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6685480639186093237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4271237734213146033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea9374b509b70f4bba37e4a2ca8cf00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueIdentifier: 

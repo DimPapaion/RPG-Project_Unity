@@ -4,11 +4,12 @@ using UnityEngine;
 using UnityEngine.AI;
 using Scripts.Core;
 using Scripts.Combat;
+using Scripts.Saving;
 
 
 namespace Scripts.Player.Movement
 {
-    public class Move : MonoBehaviour, IAction
+    public class Move : MonoBehaviour, IAction, ISaveable
     {
         [SerializeField] Transform target;
         [SerializeField] float maxSpeed = 6f;
@@ -50,6 +51,16 @@ namespace Scripts.Player.Movement
             Vector3 velocityLocal = transform.InverseTransformDirection(velocity);
             float speed = velocityLocal.z;
             GetComponent<Animator>().SetFloat("Speed", speed);
+        }
+
+        public object CaptureState()
+        {
+            return transform.position;
+        }
+
+        public void RestoreState(object state)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

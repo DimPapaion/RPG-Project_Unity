@@ -21,7 +21,7 @@ namespace Scripts.Player
             if (health.IsDead()) return;
             if (ApplyCombat()) return;
             if (ApplyMovement()) return;
-            print("nothing to do.!");
+            
         }
 
         private bool ApplyCombat()
