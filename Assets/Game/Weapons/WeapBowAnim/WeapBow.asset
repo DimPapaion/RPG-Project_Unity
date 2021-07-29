@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea8beef097098844eb2755a7b72aff00, type: 3}
-  m_Name: Sword
+  m_Name: WeapBow
   m_EditorClassIdentifier: 
-  animatorOverride: {fileID: 22100000, guid: 7d0e3126022da594db9212a153df2f86, type: 2}
-  weaponPref: {fileID: 5389376169989842620, guid: 07d1821a092c8194f8c54495c370e19d,
+  animatorOverride: {fileID: 22100000, guid: 7e4abf787928dd746beb25bd0c03b66d, type: 2}
+  weaponPref: {fileID: 80027803434034925, guid: 7c95fc4b070d5b14699d5402ba6d1042,
     type: 3}
   WeaponDamage: 20
-  WeaponRange: 2
+  WeaponRange: 10
+  isRightHanded: 0
+  projectile: {fileID: 0}

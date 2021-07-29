@@ -13,8 +13,9 @@ namespace Scripts.Combat
         [SerializeField] float AttackDelay = 1.9f;
         
         [SerializeField] Weapon defaultWeapon = null;
-        [SerializeField] Transform handTransform = null;
-        
+        [SerializeField] Transform rightHandTransform = null;
+        [SerializeField] Transform leftHandTransform = null;
+
 
         Health target;
         float lastAttackTime = Mathf.Infinity;
@@ -47,7 +48,7 @@ namespace Scripts.Combat
         {
             currentWeapon = weapon;
             Animator animator = GetComponent<Animator>();
-            weapon.Spawn(handTransform, animator);
+            weapon.Spawn(rightHandTransform,leftHandTransform, animator);
            
         }
 
@@ -101,8 +102,19 @@ namespace Scripts.Combat
 
         private void Hit()
         {
-            if(target == null) return; 
-            target.DamageTaken(currentWeapon.GetWeapDamage());
+            if(target == null) return;
+            if (currentWeapon.hasProjectile())
+            {
+                currentWeapon.LaunchProjectile(rightHandTransform, leftHandTransform, target);
+            }
+            else
+            {
+                target.DamageTaken(currentWeapon.GetWeapDamage());
+            }
+        }
+        private void Shoot()
+        {
+            Hit();
         }
     }
 }
