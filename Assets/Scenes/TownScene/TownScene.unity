@@ -3131,7 +3131,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.1238939, y: 1}
+    m_SensorSize: {x: 1.9632572, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3147,8 +3147,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239788403}
-  m_LocalRotation: {x: 0.5808019, y: -0.399264, z: 0.39235568, w: 0.5910283}
-  m_LocalPosition: {x: 60.248806, y: 8.240191, z: -3.524212}
+  m_LocalRotation: {x: 0.6366257, y: -0.29838902, z: 0.2932261, w: 0.647835}
+  m_LocalPosition: {x: 60.219532, y: 8.240196, z: -3.572503}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1666945818}
@@ -3201,7 +3201,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.1238939, y: 1}
+    m_SensorSize: {x: 1.9632572, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3217,7 +3217,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240850984}
-  m_LocalRotation: {x: 0.10373526, y: 0.5084685, z: -0.061867367, w: 0.8525675}
+  m_LocalRotation: {x: 0.10373524, y: 0.50846845, z: -0.061867356, w: 0.8525675}
   m_LocalPosition: {x: -8.838314, y: 1.1116104, z: -4.0369434}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -12929,6 +12929,12 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 752516168550781505, guid: 8b9487fe49cd977479f40337fe62b05d,
         type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e9825d19d1a88e4b90665bb10c075dc,
+        type: 2}
+    - target: {fileID: 752516168550781505, guid: 8b9487fe49cd977479f40337fe62b05d,
+        type: 3}
       propertyPath: handTransform
       value: 
       objectReference: {fileID: 2051157762}
@@ -17397,42 +17403,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1164747752}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1165675725
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: WaterDepthMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
-  m_Width: 1024
-  m_Height: 1024
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthFormat: 2
-  m_ColorFormat: 142
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &1167267913
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18214,7 +18184,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.1238939, y: 1}
+    m_SensorSize: {x: 1.9632572, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -18230,7 +18200,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1225833615}
-  m_LocalRotation: {x: 0.07788282, y: 0.7937027, z: -0.10402072, w: 0.5942643}
+  m_LocalRotation: {x: 0.07788282, y: 0.7937027, z: -0.104020715, w: 0.5942643}
   m_LocalPosition: {x: -17.752327, y: 4.2368355, z: 36.86763}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -21168,6 +21138,12 @@ PrefabInstance:
     - target: {fileID: 752516168550781505, guid: 8b9487fe49cd977479f40337fe62b05d,
         type: 3}
       propertyPath: weapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e9825d19d1a88e4b90665bb10c075dc,
+        type: 2}
+    - target: {fileID: 752516168550781505, guid: 8b9487fe49cd977479f40337fe62b05d,
+        type: 3}
+      propertyPath: defaultWeapon
       value: 
       objectReference: {fileID: 11400000, guid: 7e9825d19d1a88e4b90665bb10c075dc,
         type: 2}
@@ -24701,6 +24677,12 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 752516168550781505, guid: 8b9487fe49cd977479f40337fe62b05d,
         type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e9825d19d1a88e4b90665bb10c075dc,
+        type: 2}
+    - target: {fileID: 752516168550781505, guid: 8b9487fe49cd977479f40337fe62b05d,
+        type: 3}
       propertyPath: handTransform
       value: 
       objectReference: {fileID: 2051157762}
@@ -25568,7 +25550,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.1238939, y: 1}
+    m_SensorSize: {x: 1.9632572, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -27234,6 +27216,42 @@ MonoBehaviour:
   - {fileID: 681238306}
   - {fileID: 1308464504}
   - {fileID: 486117009}
+--- !u!84 &1872841609
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterDepthMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 1024
+  m_Height: 1024
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 2
+  m_ColorFormat: 142
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &1874346070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29186,6 +29204,12 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 4504908356604521328, guid: 1d2f678d7a0cb154d88b22909a3a5b21,
         type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e9825d19d1a88e4b90665bb10c075dc,
+        type: 2}
+    - target: {fileID: 4504908356604521328, guid: 1d2f678d7a0cb154d88b22909a3a5b21,
+        type: 3}
       propertyPath: handTransform
       value: 
       objectReference: {fileID: 1073275945}
@@ -30714,6 +30738,12 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 4504908356604521328, guid: 1d2f678d7a0cb154d88b22909a3a5b21,
         type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e9825d19d1a88e4b90665bb10c075dc,
+        type: 2}
+    - target: {fileID: 4504908356604521328, guid: 1d2f678d7a0cb154d88b22909a3a5b21,
+        type: 3}
       propertyPath: handTransform
       value: 
       objectReference: {fileID: 1073275945}
@@ -30740,6 +30770,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SwordPickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 2450939874846921512, guid: a4415783b6a21644cbb59b3dc4df10b6,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6178872727542469261, guid: a4415783b6a21644cbb59b3dc4df10b6,
         type: 3}
@@ -30796,6 +30831,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -169.339
       objectReference: {fileID: 0}
+    - target: {fileID: 8314327189043521919, guid: a4415783b6a21644cbb59b3dc4df10b6,
+        type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 11400000, guid: dcfa611c1920d8c45b1619e116819437,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4415783b6a21644cbb59b3dc4df10b6, type: 3}
 --- !u!4 &5676534032046558624 stripped
@@ -30834,6 +30875,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5389376169989842620, guid: 07d1821a092c8194f8c54495c370e19d,
         type: 3}
+    - target: {fileID: 5795509035027197753, guid: 0807932895afaa249abaef415312789b,
+        type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e9825d19d1a88e4b90665bb10c075dc,
+        type: 2}
     - target: {fileID: 5795509035027197753, guid: 0807932895afaa249abaef415312789b,
         type: 3}
       propertyPath: handTransform
@@ -31203,6 +31250,12 @@ PrefabInstance:
     - target: {fileID: 752516168550781505, guid: 8b9487fe49cd977479f40337fe62b05d,
         type: 3}
       propertyPath: weapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e9825d19d1a88e4b90665bb10c075dc,
+        type: 2}
+    - target: {fileID: 752516168550781505, guid: 8b9487fe49cd977479f40337fe62b05d,
+        type: 3}
+      propertyPath: defaultWeapon
       value: 
       objectReference: {fileID: 11400000, guid: 7e9825d19d1a88e4b90665bb10c075dc,
         type: 2}
