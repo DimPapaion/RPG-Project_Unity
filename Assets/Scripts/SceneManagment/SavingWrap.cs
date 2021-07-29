@@ -8,8 +8,8 @@ namespace Scripts.SceneManagment
 {
     public class SavingWrap : MonoBehaviour
     {
-        const string defaultSaveFile = "Save01";
-        [SerializeField] float fadeInTime = 3f;
+        const string defaultSaveFile = "Save04";
+        [SerializeField] float fadeInTime = 0.2f;
 
         IEnumerator Start()
         {

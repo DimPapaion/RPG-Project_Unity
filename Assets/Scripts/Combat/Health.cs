@@ -17,12 +17,8 @@ namespace Scripts.Combat
         }
         public void DamageTaken(float Damage)
         {
-            if (healthAmount != 0)
-            {
-                healthAmount = Mathf.Max(healthAmount - Damage, 0);
-                print(healthAmount);
-            }
-            else
+            healthAmount = Mathf.Max(healthAmount- Damage, 0);
+            if (healthAmount == 0)
             {
                 Death();
             }

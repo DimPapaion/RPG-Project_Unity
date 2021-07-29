@@ -9,18 +9,21 @@ namespace Scripts.Combat
 {
     public class FightBehaviour : MonoBehaviour, IAction
     {
-        [SerializeField] float WeaponMeleRange = 2f;
+        
         [SerializeField] float AttackDelay = 1.9f;
-        [SerializeField] float WeaponDamage = 20f;
-        [SerializeField] GameObject weaponPref = null;
+        
+        [SerializeField] Weapon defaultWeapon = null;
         [SerializeField] Transform handTransform = null;
+        
 
         Health target;
         float lastAttackTime = Mathf.Infinity;
+        Weapon currentWeapon = null;
 
         private void Start()
         {
-            SpawnWeapon();
+            
+            EquipWeapon(defaultWeapon);
         }
 
 
@@ -40,13 +43,27 @@ namespace Scripts.Combat
                 AttackBehaviour();
             }
         }
-        private void SpawnWeapon()
+        public void EquipWeapon(Weapon weapon)
         {
-            Instantiate(weaponPref, handTransform);
+            currentWeapon = weapon;
+            Animator animator = GetComponent<Animator>();
+            weapon.Spawn(handTransform, animator);
+           
+        }
+
+        public void AttackBehaviour()
+        {
+            transform.LookAt(target.transform);
+            if (lastAttackTime > AttackDelay)
+            {
+                TriggeredAttack();
+                lastAttackTime = 0;
+                Hit();
+            }
         }
         private bool GetIsInRange()
         {
-            return Vector3.Distance(transform.position, target.transform.position) < WeaponMeleRange;
+            return Vector3.Distance(transform.position, target.transform.position) < currentWeapon.GetWeapRange();
         }
 
         public void Attack(GameObject enemyTarget)
@@ -74,16 +91,7 @@ namespace Scripts.Combat
             return targetHealth != null && !targetHealth.IsDead();
         }
         //For the Animation Event
-        public void AttackBehaviour()
-        {
-            transform.LookAt(target.transform);
-            if ( lastAttackTime > AttackDelay)
-            {
-                TriggeredAttack();
-                lastAttackTime = 0;
-                Hit();
-            }
-        }
+        
 
         private void TriggeredAttack()
         {
@@ -94,7 +102,7 @@ namespace Scripts.Combat
         private void Hit()
         {
             if(target == null) return; 
-            target.DamageTaken(WeaponDamage);
+            target.DamageTaken(currentWeapon.GetWeapDamage());
         }
     }
 }

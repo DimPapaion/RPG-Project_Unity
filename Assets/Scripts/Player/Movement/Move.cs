@@ -9,9 +9,8 @@ using Scripts.Saving;
 
 namespace Scripts.Player.Movement
 {
-    public class Move : MonoBehaviour, IAction, ISaveable
+    public class Move : MonoBehaviour, IAction ,ISaveable
     {
-        [SerializeField] Transform target;
         [SerializeField] float maxSpeed = 6f;
         public NavMeshAgent agent;
         Health health;
@@ -52,7 +51,7 @@ namespace Scripts.Player.Movement
             float speed = velocityLocal.z;
             GetComponent<Animator>().SetFloat("Speed", speed);
         }
-
+        
         public object CaptureState()
         {
             return new SerializableVector3( transform.position);

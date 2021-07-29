@@ -48,6 +48,7 @@ namespace Scripts.Combat.EnemyControl
             {
                 
                 AttackBehaviour();
+                
             }
             else if (timeSinceLostPlayer < suspiciousTime)
             {

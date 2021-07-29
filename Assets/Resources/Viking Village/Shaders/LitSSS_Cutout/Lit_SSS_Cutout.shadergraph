@@ -1894,6 +1894,8 @@
         "m_GuidSerialized": "ea3cda4b-1bbb-47e8-85ad-6377de4d9d58"
     },
     "m_Name": "Normal Map",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Texture2D_033f004614a74bff82edf14e7e904c9d",
     "m_OverrideReferenceName": "_BumpMap",
     "m_GeneratePropertyBlock": true,
@@ -2107,6 +2109,8 @@
         "m_GuidSerialized": "90aef49e-4fd1-42d4-83e7-090346ba9504"
     },
     "m_Name": "MaskMap",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Texture2D_066b6109c45f407c9c373c8561882aa3",
     "m_OverrideReferenceName": "_MaskMap",
     "m_GeneratePropertyBlock": true,
@@ -2629,6 +2633,8 @@
         "m_GuidSerialized": "4692f677-9699-49a0-9d62-3c317ceb86b2"
     },
     "m_Name": "Albedo",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Texture2D_14041275131e4c42a8e3c2097eb21f84",
     "m_OverrideReferenceName": "_BaseColorMap",
     "m_GeneratePropertyBlock": true,
@@ -2967,6 +2973,8 @@
         "m_GuidSerialized": "f6d24bce-b4f8-4439-bc18-5b818030e06e"
     },
     "m_Name": "Thickness Remap",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Color_1f72781324574cb8957fd403eabd5eac",
     "m_OverrideReferenceName": "_ThicknessRemap",
     "m_GeneratePropertyBlock": true,
@@ -4577,6 +4585,8 @@
         "m_GuidSerialized": "687b61c0-0941-4f20-8fd7-b383929dd862"
     },
     "m_Name": "AO",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_4babde9763a447578f6ad83667af1001",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -5971,6 +5981,8 @@
         "m_GuidSerialized": "4ed584e8-7273-4ede-9009-fc7f7b0bcbd8"
     },
     "m_Name": "Thickness",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Texture2D_70a2c092a53a4436b5b897779c3b4d28",
     "m_OverrideReferenceName": "_ThicknessMap",
     "m_GeneratePropertyBlock": true,
@@ -8506,6 +8518,8 @@
         "m_GuidSerialized": "09df2b0a-1a23-47f8-9189-6c3168d86143"
     },
     "m_Name": "Smoothness",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_ad440c58dab6433491532f1da2144f82",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -8920,6 +8934,8 @@
         "m_GuidSerialized": "b71eb8ac-0f15-48f1-9ee5-a4a691c6519e"
     },
     "m_Name": "ObjectSpaceNormals",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Boolean_b87717974be44e31b61911bdbd3a951c",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -9876,6 +9892,8 @@
         "m_GuidSerialized": "2f00130f-2bd4-482b-8df0-c593f952e550"
     },
     "m_Name": "BendAmount",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_d3a1a2e335c3421e9bc59ab504957b06",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -11348,6 +11366,8 @@
         "m_GuidSerialized": "1b0b90f4-6176-44e0-99c9-6cb758eb17c5"
     },
     "m_Name": "Tint",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Color_f6809ef39ba74a7b9b7791f0b180b7b2",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
