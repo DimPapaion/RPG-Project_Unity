@@ -9,7 +9,7 @@ namespace Scripts.Combat
     {
         Health target = null;
         [SerializeField] float speed = 1f;
-        float damage = 0;
+        float damage = 5;
 
         // Update is called once per frame
         void Update()
@@ -37,6 +37,7 @@ namespace Scripts.Combat
         private void OnTriggerEnter(Collider other)
         {
             if (other.GetComponent<Health>() != target) return;
+            
             target.DamageTaken(damage);
             Destroy(gameObject);
         }

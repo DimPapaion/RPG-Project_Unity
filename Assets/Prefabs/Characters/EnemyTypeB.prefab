@@ -18,7 +18,6 @@ GameObject:
   - component: {fileID: 3692327795822602222}
   - component: {fileID: 3548911769235085746}
   - component: {fileID: 5836503164798280343}
-  - component: {fileID: 3816201723695229590}
   - component: {fileID: 1823511729300093268}
   m_Layer: 0
   m_Name: EnemyTypeB
@@ -118,7 +117,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c404957394bff84b8965c3ea0f68cb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
   maxSpeed: 6
   agent: {fileID: 3721610129105951009}
 --- !u!95 &8118198981610904544
@@ -152,9 +150,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 234200a7a445ce04cb778e1e80691c97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WeaponMeleRange: 2
   AttackDelay: 1.9
-  WeaponDamage: 20
+  defaultWeapon: {fileID: 0}
+  rightHandTransform: {fileID: 0}
+  leftHandTransform: {fileID: 0}
 --- !u!114 &1666736705560903671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,20 +209,6 @@ MonoBehaviour:
   waypointTollerance: 1
   waypointDwellingTime: 1
   enemySpeedWander: 0.419
---- !u!136 &3816201723695229590
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5471837129374253953}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.4
-  m_Height: 3
-  m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
 --- !u!114 &1823511729300093268
 MonoBehaviour:
   m_ObjectHideFlags: 0
