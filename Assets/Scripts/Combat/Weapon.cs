@@ -43,7 +43,7 @@ namespace Scripts.Combat
         public void LaunchProjectile(Transform rightHand, Transform leftHand, Health target)
         {
             Projectile projectileInstance = Instantiate(projectile, GetTransform(rightHand, leftHand).position, Quaternion.identity);
-            projectileInstance.SetTarget(target);
+            projectileInstance.SetTarget(target, WeaponDamage);
         }
         public float GetWeapDamage()
         {

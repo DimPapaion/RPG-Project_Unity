@@ -104,8 +104,10 @@ namespace Scripts.Combat
         {
             if(target == null) return;
             if (currentWeapon.hasProjectile())
-            {
+            { 
+
                 currentWeapon.LaunchProjectile(rightHandTransform, leftHandTransform, target);
+                
             }
             else
             {

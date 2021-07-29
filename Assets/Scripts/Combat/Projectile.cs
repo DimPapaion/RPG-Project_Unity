@@ -2,32 +2,43 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Scripts.Combat;
 
-public class Projectile : MonoBehaviour
+namespace Scripts.Combat
 {
-    Health target = null;
-    [SerializeField] float speed = 1f;
+    public class Projectile : MonoBehaviour
+    {
+        Health target = null;
+        [SerializeField] float speed = 1f;
+        float damage = 0;
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (target == null) return;
-        transform.LookAt(GetAimLocation());
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
-    }
-    public void SetTarget(Health target)
-    {
-        this.target = target;
-    }
-
-    private Vector3 GetAimLocation()
-    {
-        CapsuleCollider targetCapsule = target.GetComponent<CapsuleCollider>();
-        if(targetCapsule == null)
+        // Update is called once per frame
+        void Update()
         {
-            return target.transform.position;
+            if (target == null) return;
+            transform.LookAt(GetAimLocation());
+            transform.Translate(Vector3.forward * speed * Time.deltaTime);
         }
-        return target.transform.position + Vector3.up * targetCapsule.height / 2;
+        public void SetTarget(Health target, float damage)
+        {
+            this.target = target;
+            this.damage = damage;
+        }
+
+        private Vector3 GetAimLocation()
+        {
+            CapsuleCollider targetCapsule = target.GetComponent<CapsuleCollider>();
+            if (targetCapsule == null)
+            {
+                return target.transform.position;
+            }
+            return target.transform.position + Vector3.up * targetCapsule.height / 2;
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.GetComponent<Health>() != target) return;
+            target.DamageTaken(damage);
+            Destroy(gameObject);
+        }
     }
 }
