@@ -4,10 +4,11 @@ using UnityEngine;
 using Scripts.Player.Movement;
 using Scripts.Core;
 using System;
+using Scripts.Saving;
 
 namespace Scripts.Combat
 {
-    public class FightBehaviour : MonoBehaviour, IAction
+    public class FightBehaviour : MonoBehaviour, IAction, ISaveable
     {
         
         [SerializeField] float AttackDelay = 1.9f;
@@ -23,8 +24,10 @@ namespace Scripts.Combat
 
         private void Start()
         {
-            
-            EquipWeapon(defaultWeapon);
+            if (currentWeapon == null)
+            {
+                EquipWeapon(defaultWeapon);
+            }
         }
 
 
@@ -117,6 +120,18 @@ namespace Scripts.Combat
         private void Shoot()
         {
             Hit();
+        }
+
+        public object CaptureState()
+        {
+            return currentWeapon.name;
+        }
+
+        public void RestoreState(object state)
+        {
+            string weaponName = (string)state;
+            Weapon weapon = Resources.Load<Weapon>(weaponName);
+            EquipWeapon(weapon);
         }
     }
 }

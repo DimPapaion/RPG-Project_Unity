@@ -16,6 +16,7 @@ MonoBehaviour:
   weaponPref: {fileID: 3821981122505900326, guid: 94be46d34d5bb2c4290297690af0b6a4,
     type: 3}
   WeaponDamage: 20
-  WeaponRange: 5
+  WeaponRange: 10
   isRightHanded: 1
-  projectile: {fileID: 0}
+  projectile: {fileID: 8229204101725623428, guid: 2fe36f8305976bc4cb762731ee1ffac2,
+    type: 3}

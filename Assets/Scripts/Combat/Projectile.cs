@@ -55,6 +55,7 @@ namespace Scripts.Combat
             if (target.IsDead()) return;
             target.DamageTaken(damage);
 
+            speed = 0;
             if(hitEffect !=null)
             {
                 Instantiate(hitEffect, GetAimLocation(), transform.rotation);
