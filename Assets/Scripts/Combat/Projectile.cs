@@ -10,6 +10,10 @@ namespace Scripts.Combat
         Health target = null;
         [SerializeField] float speed = 1f;
         [SerializeField] bool isMissing = true;
+        [SerializeField] GameObject hitEffect = null;
+        [SerializeField] float maxLifeTime = 10;
+        [SerializeField] GameObject[] destroyOnHit = null;
+        [SerializeField] float lifeAfterImpact = 2f;
         float damage = 5;
 
 
@@ -31,6 +35,8 @@ namespace Scripts.Combat
         {
             this.target = target;
             this.damage = damage;
+
+            Destroy(gameObject, maxLifeTime);
         }
 
         private Vector3 GetAimLocation()
@@ -48,7 +54,16 @@ namespace Scripts.Combat
             if (other.GetComponent<Health>() != target) return;
             if (target.IsDead()) return;
             target.DamageTaken(damage);
-            Destroy(gameObject);
+
+            if(hitEffect !=null)
+            {
+                Instantiate(hitEffect, GetAimLocation(), transform.rotation);
+            }
+            foreach (GameObject toDestroy in destroyOnHit)
+            {
+                Destroy(toDestroy);
+            }
+            Destroy(gameObject, lifeAfterImpact);
         }
     }
 }
