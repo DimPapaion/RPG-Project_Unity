@@ -40,6 +40,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5633163924396866880, guid: fbdd36847fb32a74e8c86cc62bbfeff8,
+        type: 3}
+      propertyPath: leftHandTransform
+      value: 
+      objectReference: {fileID: 5306690892678291844}
     - target: {fileID: 6685480639186093237, guid: fbdd36847fb32a74e8c86cc62bbfeff8,
         type: 3}
       propertyPath: uniqueIdentifier
@@ -171,3 +176,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e6e29f21a00d5f499e21eb93d6fabaa, type: 3}
+--- !u!4 &5306690892678291844 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4464237249934500, guid: 7e6e29f21a00d5f499e21eb93d6fabaa,
+    type: 3}
+  m_PrefabInstance: {fileID: 5308331582377579808}
+  m_PrefabAsset: {fileID: 0}

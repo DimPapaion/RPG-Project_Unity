@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea8beef097098844eb2755a7b72aff00, type: 3}
+  m_Name: WeapBow enemy
+  m_EditorClassIdentifier: 
+  animatorOverride: {fileID: 22100000, guid: 7e4abf787928dd746beb25bd0c03b66d, type: 2}
+  weaponPref: {fileID: 80027803434034925, guid: 7c95fc4b070d5b14699d5402ba6d1042,
+    type: 3}
+  WeaponDamage: 20
+  WeaponRange: 13
+  isRightHanded: 0
+  projectile: {fileID: 4235932091547007825, guid: 962fbc22dd99a514a9d251840d50aacc,
+    type: 3}
