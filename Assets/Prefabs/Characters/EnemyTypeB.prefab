@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 3548911769235085746}
   - component: {fileID: 5836503164798280343}
   - component: {fileID: 1823511729300093268}
+  - component: {fileID: -3430296539294484626}
   m_Layer: 0
   m_Name: EnemyTypeB
   m_TagString: Untagged
@@ -222,6 +223,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uniqueIdentifier: 
+--- !u!114 &-3430296539294484626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5471837129374253953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9c9774780f312f4da110d970521a456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingLevel: 1
+  characterClass: 1
+  progress: {fileID: 11400000, guid: 82ae987a21964b44db88a83427f5b222, type: 2}
 --- !u!1001 &3816201724520509671
 PrefabInstance:
   m_ObjectHideFlags: 0

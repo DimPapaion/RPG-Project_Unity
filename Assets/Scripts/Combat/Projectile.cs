@@ -1,22 +1,21 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using Scripts.Resources;
 
 namespace Scripts.Combat
 {
     public class Projectile : MonoBehaviour
     {
-        Health target = null;
+        
         [SerializeField] float speed = 1f;
         [SerializeField] bool isMissing = true;
         [SerializeField] GameObject hitEffect = null;
         [SerializeField] float maxLifeTime = 10;
         [SerializeField] GameObject[] destroyOnHit = null;
         [SerializeField] float lifeAfterImpact = 2f;
+
+        Health target = null;
         float damage = 5;
-
-
+        GameObject instigator = null;
 
         private void Start()
         {
@@ -31,10 +30,11 @@ namespace Scripts.Combat
             }
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
         }
-        public void SetTarget(Health target, float damage)
+        public void SetTarget(Health target,GameObject instigator, float damage)
         {
             this.target = target;
             this.damage = damage;
+            this.instigator = instigator;
 
             Destroy(gameObject, maxLifeTime);
         }
@@ -53,7 +53,7 @@ namespace Scripts.Combat
         {
             if (other.GetComponent<Health>() != target) return;
             if (target.IsDead()) return;
-            target.DamageTaken(damage);
+            target.DamageTaken(instigator, damage);
 
             speed = 0;
             if(hitEffect !=null)

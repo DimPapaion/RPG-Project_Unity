@@ -1,9 +1,10 @@
 using UnityEngine;
+using Scripts.Resources;
 
 namespace Scripts.Combat
 {
 
-    [CreateAssetMenu(fileName ="Weapon", menuName ="Weapons/Make New Weapon", order =0)]
+    [CreateAssetMenu(fileName ="Weapon", menuName ="RPG Project/Weapon/Make New Weapon", order =0)]
     public class Weapon : ScriptableObject
     {
         [SerializeField] AnimatorOverrideController animatorOverride = null;
@@ -62,10 +63,10 @@ namespace Scripts.Combat
             return projectile != null;
         }
 
-        public void LaunchProjectile(Transform rightHand, Transform leftHand, Health target)
+        public void LaunchProjectile(Transform rightHand, Transform leftHand, Health target, GameObject instigator)
         {
             Projectile projectileInstance = Instantiate(projectile, GetTransform(rightHand, leftHand).position, Quaternion.identity);
-            projectileInstance.SetTarget(target, WeaponDamage);
+            projectileInstance.SetTarget(target,instigator, WeaponDamage);
         }
         public float GetWeapDamage()
         {

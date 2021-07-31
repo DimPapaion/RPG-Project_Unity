@@ -1,11 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using Scripts.Core;
-using Scripts.Combat;
 using Scripts.Saving;
-
+using Scripts.Resources;
 
 namespace Scripts.Player.Movement
 {

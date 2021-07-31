@@ -1,11 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Scripts.Player.Movement;
 using Scripts.Core;
-using System;
 using Scripts.Saving;
-
+using Scripts.Resources;
 namespace Scripts.Combat
 {
     public class FightBehaviour : MonoBehaviour, IAction, ISaveable
@@ -55,6 +52,10 @@ namespace Scripts.Combat
            
         }
 
+        public Health GetTarget()
+        {
+            return target;
+        }
         public void AttackBehaviour()
         {
             transform.LookAt(target.transform);
@@ -108,13 +109,11 @@ namespace Scripts.Combat
             if(target == null) return;
             if (currentWeapon.hasProjectile())
             { 
-
-                currentWeapon.LaunchProjectile(rightHandTransform, leftHandTransform, target);
-                
+                currentWeapon.LaunchProjectile(rightHandTransform, leftHandTransform, target, gameObject);
             }
             else
             {
-                target.DamageTaken(currentWeapon.GetWeapDamage());
+                target.DamageTaken(gameObject, currentWeapon.GetWeapDamage());
             }
         }
         private void Shoot()
@@ -130,7 +129,7 @@ namespace Scripts.Combat
         public void RestoreState(object state)
         {
             string weaponName = (string)state;
-            Weapon weapon = Resources.Load<Weapon>(weaponName);
+            Weapon weapon = UnityEngine.Resources.Load<Weapon>(weaponName);
             EquipWeapon(weapon);
         }
     }

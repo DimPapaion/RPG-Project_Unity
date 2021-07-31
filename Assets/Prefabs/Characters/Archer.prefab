@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 1968114916866658214}
   - component: {fileID: 1968114916866658213}
   - component: {fileID: 307040699152710407}
+  - component: {fileID: 9124792507938865640}
   m_Layer: 0
   m_Name: Archer
   m_TagString: Untagged
@@ -254,6 +255,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0e86e9358ce7c24f85d4504a8e9ceea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &9124792507938865640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968114916866658212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9c9774780f312f4da110d970521a456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingLevel: 1
+  characterClass: 3
+  progress: {fileID: 11400000, guid: 82ae987a21964b44db88a83427f5b222, type: 2}
 --- !u!1001 &1968114915329850836
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,11 +1,7 @@
-
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Scripts.Player.Movement;
 using Scripts.Combat;
-using System;
-
+using Scripts.Resources;
 
 namespace Scripts.Player
 {
