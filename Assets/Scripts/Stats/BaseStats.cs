@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Scripts.Stats
@@ -11,15 +9,9 @@ namespace Scripts.Stats
         [SerializeField] CharacterClass characterClass;
         [SerializeField] Progress progress = null;
 
-        public float GetHealth()
+        public float GetStat(Stat stat)
         {
-            return progress.GetHealth(characterClass,startingLevel);
+            return progress.GetStat(stat, characterClass,startingLevel);
         }
-
-        public float GetXPReward()
-        {
-            return 10;
-        }
-      
     }
 }

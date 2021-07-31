@@ -66,7 +66,7 @@ namespace Scripts.Combat
         public void LaunchProjectile(Transform rightHand, Transform leftHand, Health target, GameObject instigator)
         {
             Projectile projectileInstance = Instantiate(projectile, GetTransform(rightHand, leftHand).position, Quaternion.identity);
-            projectileInstance.SetTarget(target,instigator, WeaponDamage);
+            projectileInstance.SetTarget(target, instigator, WeaponDamage);
         }
         public float GetWeapDamage()
         {

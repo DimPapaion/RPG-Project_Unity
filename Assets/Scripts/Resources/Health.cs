@@ -13,7 +13,7 @@ namespace Scripts.Resources
 
         private void Start()
         {
-            healthAmount = GetComponent<BaseStats>().GetHealth();
+            healthAmount = GetComponent<BaseStats>().GetStat(Stat.Health);
         }
         public bool IsDead()
         {
@@ -29,11 +29,9 @@ namespace Scripts.Resources
             }
         }
 
-       
-
         public float GetPercentage()
         {
-            return (healthAmount / GetComponent<BaseStats>().GetHealth()) * 100;
+            return (healthAmount / GetComponent<BaseStats>().GetStat(Stat.Health)) * 100;
         }
         private void Death()
         {
@@ -45,9 +43,9 @@ namespace Scripts.Resources
 
         private void AwardExperiece(GameObject instigator)
         {
-            Experience experience =  instigator.GetComponent<Experience>();
+            Experience experience = instigator.GetComponent<Experience>();
             if (experience == null) return;
-            experience.GainXP(GetComponent<BaseStats>().GetXPReward());
+            experience.GainXP(GetComponent<BaseStats>().GetStat(Stat.ExperienceReward));
         }
         public object CaptureState()
         {
