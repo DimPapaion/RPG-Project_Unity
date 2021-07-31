@@ -8,12 +8,17 @@ namespace Scripts.Resources
 {
     public class Health : MonoBehaviour, ISaveable
     {
-        [SerializeField] float healthAmount = 100f;
+        [SerializeField] float regenerationPercentage = 70;
+        float healthAmount = -1f;
         bool isDead = false;
 
         private void Start()
         {
-            healthAmount = GetComponent<BaseStats>().GetStat(Stat.Health);
+            GetComponent<BaseStats>().onLevelUp += RegenHealth;
+            if (healthAmount < 0)
+            {
+                healthAmount = GetComponent<BaseStats>().GetStat(Stat.Health);
+            }
         }
         public bool IsDead()
         {
@@ -21,6 +26,7 @@ namespace Scripts.Resources
         }
         public void DamageTaken(GameObject instigator,  float Damage)
         {
+            print(gameObject.name + "Took damage: " + Damage);
             healthAmount = Mathf.Max(healthAmount- Damage, 0);
             if (healthAmount == 0)
             {
@@ -29,6 +35,14 @@ namespace Scripts.Resources
             }
         }
 
+        public float GetHealthPoints()
+        {
+            return healthAmount;
+        }
+        public float GetMaxHealthPoints()
+        {
+            return GetComponent<BaseStats>().GetStat(Stat.Health);
+        }
         public float GetPercentage()
         {
             return (healthAmount / GetComponent<BaseStats>().GetStat(Stat.Health)) * 100;
@@ -46,6 +60,12 @@ namespace Scripts.Resources
             Experience experience = instigator.GetComponent<Experience>();
             if (experience == null) return;
             experience.GainXP(GetComponent<BaseStats>().GetStat(Stat.ExperienceReward));
+        }
+
+        private void RegenHealth()
+        {
+            float regenHealthPoints = GetComponent<BaseStats>().GetStat(Stat.Health) * (regenerationPercentage / 100);
+            healthAmount = Mathf.Max(healthAmount, regenHealthPoints);
         }
         public object CaptureState()
         {

@@ -3,6 +3,8 @@ using Scripts.Player.Movement;
 using Scripts.Core;
 using Scripts.Saving;
 using Scripts.Resources;
+using Scripts.Stats;
+
 namespace Scripts.Combat
 {
     public class FightBehaviour : MonoBehaviour, IAction, ISaveable
@@ -107,13 +109,14 @@ namespace Scripts.Combat
         private void Hit()
         {
             if(target == null) return;
+            float damage = GetComponent<BaseStats>().GetStat(Stat.Damage);
             if (currentWeapon.hasProjectile())
             { 
-                currentWeapon.LaunchProjectile(rightHandTransform, leftHandTransform, target, gameObject);
+                currentWeapon.LaunchProjectile(rightHandTransform, leftHandTransform, target, gameObject, damage);
             }
             else
             {
-                target.DamageTaken(gameObject, currentWeapon.GetWeapDamage());
+                target.DamageTaken(gameObject, damage);
             }
         }
         private void Shoot()

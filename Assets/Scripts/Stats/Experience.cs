@@ -9,10 +9,12 @@ namespace Scripts.Stats
         [SerializeField] float experiencePoints = 0f;
 
         
+        public event Action onExperienceGained;
 
         public void GainXP(float experience)
         {
             experiencePoints += experience;
+            onExperienceGained();
 
         }
 

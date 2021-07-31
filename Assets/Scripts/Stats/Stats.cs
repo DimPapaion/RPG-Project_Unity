@@ -8,6 +8,7 @@ namespace Scripts.Stats
     {
         Health,
         ExperienceReward,
-        ExperienceToLvlUp
+        ExperienceToLvlUp,
+        Damage
     }
 }

@@ -36,6 +36,7 @@ namespace Scripts.Saving
         public void Delete(string saveFile)
         {
             File.Delete(GetPathFromSaveFile(saveFile));
+            print(GetPathFromSaveFile(saveFile));
         }
 
         private Dictionary<string, object> LoadFile(string saveFile)

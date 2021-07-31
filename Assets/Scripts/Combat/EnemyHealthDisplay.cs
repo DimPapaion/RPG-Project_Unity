@@ -23,8 +23,9 @@ namespace Scripts.Combat
                 return;
             }
             Health healthEnemy = enemy.GetTarget();
-            
-            GetComponent<Text>().text = String.Format("{0:0.0}%", healthEnemy.GetPercentage());
+
+            //GetComponent<Text>().text = String.Format("{0:0.0}%", healthEnemy.GetPercentage());
+            GetComponent<Text>().text = String.Format("{0:0.0}/{1:0}", healthEnemy.GetHealthPoints(), healthEnemy.GetMaxHealthPoints());
         }
     }
 }

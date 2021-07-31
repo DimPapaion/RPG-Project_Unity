@@ -9,7 +9,11 @@ namespace Scripts.SceneManagment
         const string defaultSaveFile = "Save06";
         [SerializeField] float fadeInTime = 0.2f;
 
-        IEnumerator Start()
+        private void Awake()
+        {
+            StartCoroutine(LoadLastScene());
+        }
+        IEnumerator LoadLastScene()
         {
             Fader fader = FindObjectOfType<Fader>();
             fader.FadeOutImmediate();
@@ -26,6 +30,10 @@ namespace Scripts.SceneManagment
             {
                 Save();
             }
+            if (Input.GetKeyDown(KeyCode.Delete))
+            {
+                Delete();
+            }
         }
 
         public void Save()
@@ -37,6 +45,11 @@ namespace Scripts.SceneManagment
         {
             print("Savving....");
             GetComponent<SavingSystem>().Load(defaultSaveFile);
+        }
+
+        public void Delete()
+        {
+            GetComponent<SavingSystem>().Delete(defaultSaveFile);
         }
     }
 }

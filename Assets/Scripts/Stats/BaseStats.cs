@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Scripts.Stats
@@ -8,22 +9,58 @@ namespace Scripts.Stats
         [SerializeField] int startingLevel = 1;
         [SerializeField] CharacterClass characterClass;
         [SerializeField] Progress progress = null;
+        [SerializeField] GameObject levelupParticleEffect = null;
 
-        private void Update()
+        public event Action onLevelUp;
+        int currentLevel = 0;
+
+
+        private void Start()
         {
-            if (gameObject.tag == "Player")
+            currentLevel = CalculateLevel();
+            Experience experience = GetComponent<Experience>();
+            if(experience != null)
             {
-                print(GetLevel());
+                experience.onExperienceGained += UpdateLevel;
             }
         }
+        private void UpdateLevel()
+        {
+            int newLevel = CalculateLevel();
+            if(newLevel > currentLevel)
+            {
+                currentLevel = newLevel;
+                LevelUpEffect();
+                onLevelUp();
+
+            }
+        }
+
+        private void LevelUpEffect()
+        {
+            Instantiate(levelupParticleEffect, transform);
+        }
+
         public float GetStat(Stat stat)
         {
-            return progress.GetStat(stat, characterClass,startingLevel);
+            return progress.GetStat(stat, characterClass,GetLevel());
         }
 
         public int GetLevel()
         {
-            float currentExp = GetComponent<Experience>().GetPoints();
+            if(currentLevel < 1)
+            {
+                currentLevel = CalculateLevel();
+            }
+            return currentLevel;
+        }
+        public int CalculateLevel()
+        {
+            Experience experience = GetComponent<Experience>();
+
+            if (experience == null) return startingLevel;
+            float currentExp = experience.GetPoints();
+
             int penultimateLevel = progress.GetLevels(Stat.ExperienceToLvlUp, characterClass);
             for (int level = 1; level <= penultimateLevel; level++)
             {
