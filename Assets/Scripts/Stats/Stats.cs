@@ -7,6 +7,7 @@ namespace Scripts.Stats
     public enum Stat
     {
         Health,
-        ExperienceReward
+        ExperienceReward,
+        ExperienceToLvlUp
     }
 }

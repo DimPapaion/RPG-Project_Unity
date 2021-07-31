@@ -2,7 +2,7 @@ using UnityEngine;
 using Scripts.Saving;
 using System;
 
-namespace Scripts.Resources
+namespace Scripts.Stats
 {
     public class Experience : MonoBehaviour, ISaveable
     {
