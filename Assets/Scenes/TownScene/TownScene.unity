@@ -1391,42 +1391,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 188de5164596871439042794cbba9686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!84 &91776852
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: WaterDepthMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
-  m_Width: 1024
-  m_Height: 1024
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthFormat: 2
-  m_ColorFormat: 142
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!4 &95920658 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422,
@@ -3183,8 +3147,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239788403}
-  m_LocalRotation: {x: 0.6733928, y: -0.19788733, z: 0.1944633, w: 0.68524945}
-  m_LocalPosition: {x: 60.179935, y: 8.240191, z: -3.606717}
+  m_LocalRotation: {x: 0.13270275, y: 0.7003504, z: -0.68823236, w: 0.13503933}
+  m_LocalPosition: {x: 60.022045, y: 8.2401905, z: -3.2970486}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1666945818}
@@ -3253,7 +3217,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240850984}
-  m_LocalRotation: {x: 0.10373526, y: 0.5084685, z: -0.061867367, w: 0.8525675}
+  m_LocalRotation: {x: 0.10373524, y: 0.50846845, z: -0.061867356, w: 0.8525675}
   m_LocalPosition: {x: -8.838314, y: 1.1116104, z: -4.0369434}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -17182,7 +17146,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1225833615}
-  m_LocalRotation: {x: 0.07788282, y: 0.7937027, z: -0.10402072, w: 0.5942643}
+  m_LocalRotation: {x: 0.07788283, y: 0.7937027, z: -0.104020745, w: 0.59426427}
   m_LocalPosition: {x: -17.752327, y: 4.2368355, z: 36.86763}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -21220,25 +21184,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1484364791}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1484904699 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2668013800277428168, guid: 0807932895afaa249abaef415312789b,
-    type: 3}
-  m_PrefabInstance: {fileID: 6109455287979883908}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1484904700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1484904699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b7717aabe9958f4ab3619ae1c3a2363, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  experiencePoints: 0
 --- !u!1 &1486078019
 GameObject:
   m_ObjectHideFlags: 0
@@ -25041,6 +24986,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1763014635}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1763162759
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterDepthMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 1024
+  m_Height: 1024
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 2
+  m_ColorFormat: 142
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &1777146176
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,5 +1,6 @@
 using UnityEngine;
 using Scripts.Saving;
+using System;
 
 namespace Scripts.Resources
 {
@@ -14,6 +15,11 @@ namespace Scripts.Resources
             experiencePoints += experience;
 
         }
+
+        public float GetPoints()
+        {
+            return experiencePoints;
+        }
         public object CaptureState()
         {
             return experiencePoints;
@@ -23,5 +29,7 @@ namespace Scripts.Resources
         {
             experiencePoints = (float)state;
         }
+
+        
     }
 }
