@@ -5,6 +5,8 @@ using Scripts.Saving;
 using Scripts.Resources;
 using Scripts.Stats;
 using System.Collections.Generic;
+using Scripts.Utils;
+using System;
 
 namespace Scripts.Combat
 {
@@ -19,14 +21,22 @@ namespace Scripts.Combat
 
         Health target;
         float lastAttackTime = Mathf.Infinity;
-        Weapon currentWeapon = null;
+        LazyValue<Weapon> currentWeapon;
+
+        private void Awake()
+        {
+            currentWeapon = new LazyValue<Weapon>(SetupDefaultWeapon);
+        }
+
+        private Weapon SetupDefaultWeapon()
+        {
+            AttachWeapon(defaultWeapon);
+            return defaultWeapon;
+        }
 
         private void Start()
         {
-            if (currentWeapon == null)
-            {
-                EquipWeapon(defaultWeapon);
-            }
+            currentWeapon.ForceInit();
         }
 
 
@@ -48,10 +58,15 @@ namespace Scripts.Combat
         }
         public void EquipWeapon(Weapon weapon)
         {
-            currentWeapon = weapon;
+            currentWeapon.value = weapon;
+            AttachWeapon(weapon);
+
+        }
+
+        private void AttachWeapon(Weapon weapon)
+        {
             Animator animator = GetComponent<Animator>();
-            weapon.Spawn(rightHandTransform,leftHandTransform, animator);
-           
+            weapon.Spawn(rightHandTransform, leftHandTransform, animator);
         }
 
         public Health GetTarget()
@@ -70,7 +85,7 @@ namespace Scripts.Combat
         }
         private bool GetIsInRange()
         {
-            return Vector3.Distance(transform.position, target.transform.position) < currentWeapon.GetWeapRange();
+            return Vector3.Distance(transform.position, target.transform.position) < currentWeapon.value.GetWeapRange();
         }
 
         public void Attack(GameObject enemyTarget)
@@ -95,7 +110,7 @@ namespace Scripts.Combat
         {
             if(stat == Stat.Damage)
             {
-                yield return currentWeapon.GetWeapDamage();
+                yield return currentWeapon.value.GetWeapDamage();
             }
         }
 
@@ -103,7 +118,7 @@ namespace Scripts.Combat
         {
             if (stat == Stat.Damage)
             {
-                yield return currentWeapon.GetPercentageBonus();
+                yield return currentWeapon.value.GetPercentageBonus();
             }
         }
 
@@ -127,9 +142,9 @@ namespace Scripts.Combat
         {
             if(target == null) return;
             float damage = GetComponent<BaseStats>().GetStat(Stat.Damage);
-            if (currentWeapon.hasProjectile())
+            if (currentWeapon.value.hasProjectile())
             { 
-                currentWeapon.LaunchProjectile(rightHandTransform, leftHandTransform, target, gameObject, damage);
+                currentWeapon.value.LaunchProjectile(rightHandTransform, leftHandTransform, target, gameObject, damage);
             }
             else
             {
@@ -143,7 +158,7 @@ namespace Scripts.Combat
 
         public object CaptureState()
         {
-            return currentWeapon.name;
+            return currentWeapon.value.name;
         }
 
         public void RestoreState(object state)

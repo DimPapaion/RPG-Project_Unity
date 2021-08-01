@@ -3,6 +3,7 @@ using Scripts.Core;
 using Scripts.Stats;
 using Scripts.Saving;
 using System;
+using Scripts.Utils;
 
 namespace Scripts.Resources
 {
@@ -10,16 +11,22 @@ namespace Scripts.Resources
     {
         [SerializeField] float regenerationPercentage = 70;
 
-        float healthAmount = -1f;
+        LazyValue<float> healthAmount;
 
         bool isDead = false;
 
+        private void Awake()
+        {
+            healthAmount = new LazyValue<float>(GetInitialHealth);
+        }
+
+        private float GetInitialHealth()
+        {
+            return GetComponent<BaseStats>().GetStat(Stat.Health);
+        }
         private void Start()
         {
-            if (healthAmount < 0)
-            {
-                healthAmount = GetComponent<BaseStats>().GetStat(Stat.Health);
-            }
+            healthAmount.ForceInit();
         }
         private void OnEnable()
         {
@@ -37,8 +44,8 @@ namespace Scripts.Resources
         public void DamageTaken(GameObject instigator,  float Damage)
         {
             print(gameObject.name + "Took damage: " + Damage);
-            healthAmount = Mathf.Max(healthAmount- Damage, 0);
-            if (healthAmount == 0)
+            healthAmount.value = Mathf.Max(healthAmount.value- Damage, 0);
+            if (healthAmount.value == 0)
             {
                 Death();
                 AwardExperiece(instigator);
@@ -47,7 +54,7 @@ namespace Scripts.Resources
 
         public float GetHealthPoints()
         {
-            return healthAmount;
+            return healthAmount.value;
         }
         public float GetMaxHealthPoints()
         {
@@ -55,7 +62,7 @@ namespace Scripts.Resources
         }
         public float GetPercentage()
         {
-            return (healthAmount / GetComponent<BaseStats>().GetStat(Stat.Health)) * 100;
+            return (healthAmount.value / GetComponent<BaseStats>().GetStat(Stat.Health)) * 100;
         }
         private void Death()
         {
@@ -75,17 +82,17 @@ namespace Scripts.Resources
         private void RegenHealth()
         {
             float regenHealthPoints = GetComponent<BaseStats>().GetStat(Stat.Health) * (regenerationPercentage / 100);
-            healthAmount = Mathf.Max(healthAmount, regenHealthPoints);
+            healthAmount.value = Mathf.Max(healthAmount.value, regenHealthPoints);
         }
         public object CaptureState()
         {
-            return healthAmount;
+            return healthAmount.value;
         }
 
         public void RestoreState(object state)
         {
-            healthAmount = (float)state;
-            if (healthAmount == 0)
+            healthAmount.value = (float)state;
+            if (healthAmount.value == 0)
             {
                 Death();
             }

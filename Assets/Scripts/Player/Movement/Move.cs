@@ -17,12 +17,7 @@ namespace Scripts.Player.Movement
             health = GetComponent<Health>();
             agent = GetComponent<NavMeshAgent>();
         }
-        void Start()
-        {
-            
-        }
 
-        // Update is called once per frame
         private void Update()
         {
             agent.enabled = !health.IsDead();

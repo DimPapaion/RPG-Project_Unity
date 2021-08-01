@@ -2,6 +2,8 @@ using UnityEngine;
 using Scripts.Player.Movement;
 using Scripts.Core;
 using Scripts.Resources;
+using Scripts.Utils;
+using System;
 
 namespace Scripts.Combat.EnemyControl
 {
@@ -20,7 +22,7 @@ namespace Scripts.Combat.EnemyControl
         GameObject player;
         Move move;
 
-        Vector3 protectedLocation;
+        LazyValue<Vector3> protectedLocation;
         float timeSinceLostPlayer = Mathf.Infinity;
         float timeSinceNextWaypoint = Mathf.Infinity;
         int currentWaypoint = 0;
@@ -31,10 +33,18 @@ namespace Scripts.Combat.EnemyControl
             fighter = GetComponent<FightBehaviour>();
             health = GetComponent<Health>();
             player = GameObject.FindWithTag("Player");
+
+            protectedLocation = new LazyValue<Vector3>(GetProtectedLoc);
         }
+
+        private Vector3 GetProtectedLoc()
+        {
+            return transform.position;
+        }
+
         private void Start()
         {
-            protectedLocation = transform.position;
+            protectedLocation.ForceInit();
         }
 
 
@@ -67,7 +77,7 @@ namespace Scripts.Combat.EnemyControl
 
         private void EnemyMoveBehaviour()
         {
-            Vector3 nextPos = protectedLocation;
+            Vector3 nextPos = protectedLocation.value;
             if (enemyPath !=null)
             {
                 if (AtWaypoint())
