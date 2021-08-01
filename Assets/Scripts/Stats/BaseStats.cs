@@ -10,6 +10,7 @@ namespace Scripts.Stats
         [SerializeField] CharacterClass characterClass;
         [SerializeField] Progress progress = null;
         [SerializeField] GameObject levelupParticleEffect = null;
+        [SerializeField] bool shouldUseModifiers = false;
 
         public event Action onLevelUp;
         int currentLevel = 0;
@@ -43,8 +44,15 @@ namespace Scripts.Stats
 
         public float GetStat(Stat stat)
         {
-            return progress.GetStat(stat, characterClass,GetLevel());
+            return (GetBaseStat(stat) + GetAdditiveModifier(stat)) * (1 + GetPercentageModifier(stat)/100);
         }
+
+
+        private float GetBaseStat(Stat stat)
+        {
+            return progress.GetStat(stat, characterClass, GetLevel());
+        }
+
 
         public int GetLevel()
         {
@@ -54,7 +62,7 @@ namespace Scripts.Stats
             }
             return currentLevel;
         }
-        public int CalculateLevel()
+        private int CalculateLevel()
         {
             Experience experience = GetComponent<Experience>();
 
@@ -71,6 +79,33 @@ namespace Scripts.Stats
                 }
             }
             return penultimateLevel + 1;
+        }
+
+        private float GetAdditiveModifier(Stat stat)
+        {
+            if (!shouldUseModifiers) return 0;
+            float total = 0;
+            foreach (IModifierProvider provider in GetComponents<IModifierProvider>())
+            {
+                foreach (float modifier in provider.GetAdditiveModifiers(stat))
+                {
+                    total += modifier;
+                }
+            }
+            return total;
+        }
+        private float GetPercentageModifier(Stat stat)
+        {
+            if (!shouldUseModifiers) return 0;
+            float total = 0;
+            foreach (IModifierProvider provider in GetComponents<IModifierProvider>())
+            {
+                foreach (float modifier in provider.GetPercentageModifiers(stat))
+                {
+                    total += modifier;
+                }
+            }
+            return total;
         }
     }
 }

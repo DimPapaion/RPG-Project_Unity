@@ -10,6 +10,7 @@ namespace Scripts.Combat
         [SerializeField] AnimatorOverrideController animatorOverride = null;
         [SerializeField] GameObject weaponPref = null;
         [SerializeField] float WeaponDamage = 20f;
+        [SerializeField] float percentageBonus = 0f;
         [SerializeField] float WeaponRange = 2f;
         [SerializeField] bool isRightHanded = true;
         [SerializeField] Projectile projectile = null;
@@ -72,7 +73,10 @@ namespace Scripts.Combat
         {
             return WeaponDamage;
         }
-
+        public float GetPercentageBonus()
+        {
+            return percentageBonus;
+        }
         public float GetWeapRange()
         {
             return WeaponRange;

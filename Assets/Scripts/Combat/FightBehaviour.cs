@@ -4,10 +4,11 @@ using Scripts.Core;
 using Scripts.Saving;
 using Scripts.Resources;
 using Scripts.Stats;
+using System.Collections.Generic;
 
 namespace Scripts.Combat
 {
-    public class FightBehaviour : MonoBehaviour, IAction, ISaveable
+    public class FightBehaviour : MonoBehaviour, IAction, ISaveable, IModifierProvider
     {
         
         [SerializeField] float AttackDelay = 1.9f;
@@ -90,6 +91,23 @@ namespace Scripts.Combat
             GetComponent<Animator>().ResetTrigger("Attack");
             GetComponent<Animator>().SetTrigger("StopAttack");
         }
+
+        public IEnumerable<float> GetAdditiveModifiers(Stat stat)
+        {
+            if(stat == Stat.Damage)
+            {
+                yield return currentWeapon.GetWeapDamage();
+            }
+        }
+
+        public IEnumerable<float> GetPercentageModifiers(Stat stat)
+        {
+            if (stat == Stat.Damage)
+            {
+                yield return currentWeapon.GetPercentageBonus();
+            }
+        }
+
 
         public bool CanAttack(GameObject enemyTarget)
         {
