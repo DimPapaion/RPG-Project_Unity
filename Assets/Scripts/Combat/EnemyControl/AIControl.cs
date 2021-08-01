@@ -25,14 +25,15 @@ namespace Scripts.Combat.EnemyControl
         float timeSinceNextWaypoint = Mathf.Infinity;
         int currentWaypoint = 0;
 
-        private void Start()
+        private void Awake()
         {
             move = GetComponent<Move>();
-            
             fighter = GetComponent<FightBehaviour>();
             health = GetComponent<Health>();
             player = GameObject.FindWithTag("Player");
-
+        }
+        private void Start()
+        {
             protectedLocation = transform.position;
         }
 

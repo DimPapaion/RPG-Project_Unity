@@ -8,7 +8,7 @@ namespace Scripts.Player
     public class PlayerControl : MonoBehaviour
     {
         Health health;
-        private void Start()
+        private void Awake()
         {
             health = GetComponent<Health>();
         }

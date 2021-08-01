@@ -12,10 +12,14 @@ namespace Scripts.Player.Movement
         public NavMeshAgent agent;
         Health health;
 
-        void Start()
+        private void Awake()
         {
             health = GetComponent<Health>();
             agent = GetComponent<NavMeshAgent>();
+        }
+        void Start()
+        {
+            
         }
 
         // Update is called once per frame
@@ -60,6 +64,7 @@ namespace Scripts.Player.Movement
             agent.enabled = false;
             transform.position = position.ToVector();
             agent.enabled = true;
+            GetComponent<ActionSched>().CancelCurrentAction();
         }
     }
 }

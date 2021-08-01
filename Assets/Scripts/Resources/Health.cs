@@ -9,16 +9,26 @@ namespace Scripts.Resources
     public class Health : MonoBehaviour, ISaveable
     {
         [SerializeField] float regenerationPercentage = 70;
+
         float healthAmount = -1f;
+
         bool isDead = false;
 
         private void Start()
         {
-            GetComponent<BaseStats>().onLevelUp += RegenHealth;
             if (healthAmount < 0)
             {
                 healthAmount = GetComponent<BaseStats>().GetStat(Stat.Health);
             }
+        }
+        private void OnEnable()
+        {
+            GetComponent<BaseStats>().onLevelUp += RegenHealth;
+        }
+
+        private void OnDisable()
+        {
+            GetComponent<BaseStats>().onLevelUp -= RegenHealth;
         }
         public bool IsDead()
         {

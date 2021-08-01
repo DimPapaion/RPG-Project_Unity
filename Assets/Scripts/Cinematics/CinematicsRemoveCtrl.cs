@@ -8,11 +8,19 @@ namespace Scripts.Cinematics
     public class CinematicsRemoveCtrl : MonoBehaviour
     {
         GameObject player;
-        private void Start()
+        private void Awake()
+        {
+            player = GameObject.FindWithTag("Player");
+        }
+        private void OnEnable()
         {
             GetComponent<PlayableDirector>().played += DisableCtrl;
             GetComponent<PlayableDirector>().stopped += EnableCtrl;
-            player = GameObject.FindWithTag("Player");
+        }
+        private void OnDisable()
+        {
+            GetComponent<PlayableDirector>().played -= DisableCtrl;
+            GetComponent<PlayableDirector>().stopped -= EnableCtrl;
         }
         void DisableCtrl(PlayableDirector pd)
         {

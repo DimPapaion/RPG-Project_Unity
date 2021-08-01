@@ -7,10 +7,9 @@ namespace Scripts.SceneManagment
     {
         CanvasGroup canvasGroup;
 
-        private void Start()
+        private void Awake()
         {
             canvasGroup = GetComponent<CanvasGroup>();
-            
         }
 
         public void FadeOutImmediate()

@@ -12,7 +12,6 @@ namespace Scripts.Combat
     {
         
         [SerializeField] float AttackDelay = 1.9f;
-        
         [SerializeField] Weapon defaultWeapon = null;
         [SerializeField] Transform rightHandTransform = null;
         [SerializeField] Transform leftHandTransform = null;
