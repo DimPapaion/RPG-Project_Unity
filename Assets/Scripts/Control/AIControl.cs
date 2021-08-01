@@ -1,11 +1,11 @@
 using UnityEngine;
-using Scripts.Player.Movement;
+using Scripts.Movement;
 using Scripts.Core;
 using Scripts.Resources;
 using Scripts.Utils;
-using System;
+using Scripts.Combat;
 
-namespace Scripts.Combat.EnemyControl
+namespace Scripts.Control
 {
     public class AIControl : MonoBehaviour
     {

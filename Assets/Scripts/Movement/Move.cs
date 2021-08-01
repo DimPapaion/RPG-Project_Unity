@@ -4,7 +4,7 @@ using Scripts.Core;
 using Scripts.Saving;
 using Scripts.Resources;
 
-namespace Scripts.Player.Movement
+namespace Scripts.Movement
 {
     public class Move : MonoBehaviour, IAction ,ISaveable
     {

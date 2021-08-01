@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Playables;
 using Scripts.Core;
-using Scripts.Player;
+using Scripts.Control;
 
 namespace Scripts.Cinematics
 {

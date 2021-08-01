@@ -1,12 +1,11 @@
 using UnityEngine;
-using Scripts.Player.Movement;
+using Scripts.Movement;
 using Scripts.Core;
 using Scripts.Saving;
 using Scripts.Resources;
 using Scripts.Stats;
 using System.Collections.Generic;
 using Scripts.Utils;
-using System;
 
 namespace Scripts.Combat
 {

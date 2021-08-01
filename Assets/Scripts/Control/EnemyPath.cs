@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Scripts.Combat.EnemyControl
+namespace Scripts.Control
 {
     public class EnemyPath : MonoBehaviour
     {
