@@ -181,13 +181,13 @@ MonoBehaviour:
   takeDamge:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4271237734213146033}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 569592293768357313}
+        m_TargetAssemblyTypeName: Scripts.UI.DamageTxt.DamageTxtSpawner, Assembly-CSharp
+        m_MethodName: Spawn
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -295,3 +295,15 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2731585179615321332}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &569592293768357313 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2454201298299238709, guid: 8df751032df231b4896f8a4e39e4acf8,
+    type: 3}
+  m_PrefabInstance: {fileID: 2731585179615321332}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bef9305b0948a6842809c310eb309996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,4 +1,4 @@
-using Scripts.Resources;
+using Scripts.Attributes;
 using UnityEngine;
 using UnityEngine.UI;
 using System;

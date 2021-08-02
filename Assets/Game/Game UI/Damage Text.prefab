@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3508587d81cdde540b1b0e908576f662, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageText: {fileID: 1214109550789299702}
 --- !u!1 &2043898898260929386
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,7 +139,7 @@ GameObject:
   - component: {fileID: 4322028432121913353}
   - component: {fileID: 6495868707418392735}
   - component: {fileID: 5578319791964017778}
-  - component: {fileID: 7772443547632995947}
+  - component: {fileID: 1618771391572516274}
   m_Layer: 5
   m_Name: Damage Txt
   m_TagString: Untagged
@@ -163,7 +164,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 3.15}
+  m_AnchoredPosition: {x: 0, y: 2.07}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &4180337422277355039
@@ -248,9 +249,10 @@ Animation:
   m_GameObject: {fileID: 6655389560813815620}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 9d9a06c18c3623843832a381523e5af5, type: 2}
+  m_Animation: {fileID: 7400000, guid: b89251506f160ec41964a376c644abff, type: 2}
   m_Animations:
-  - {fileID: 7400000, guid: 9d9a06c18c3623843832a381523e5af5, type: 2}
+  - {fileID: 0}
+  - {fileID: 7400000, guid: b89251506f160ec41964a376c644abff, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -267,7 +269,7 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &7772443547632995947
+--- !u!114 &1618771391572516274
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -276,6 +278,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6655389560813815620}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3508587d81cdde540b1b0e908576f662, type: 3}
+  m_Script: {fileID: 11500000, guid: 92893a2a8a3e4c44eaafe84111b883f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetToDestroy: {fileID: 672436425024973432}

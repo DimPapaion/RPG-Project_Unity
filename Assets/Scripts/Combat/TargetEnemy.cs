@@ -1,5 +1,5 @@
 using UnityEngine;
-using Scripts.Resources;
+using Scripts.Attributes;
 using Scripts.Control;
 
 namespace Scripts.Combat

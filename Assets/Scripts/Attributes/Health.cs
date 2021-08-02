@@ -6,12 +6,18 @@ using System;
 using Scripts.Utils;
 using UnityEngine.Events;
 
-namespace Scripts.Resources
+namespace Scripts.Attributes
 {
     public class Health : MonoBehaviour, ISaveable
     {
         [SerializeField] float regenerationPercentage = 70;
-        [SerializeField] UnityEvent takeDamge;
+        [SerializeField] TakeDamageEvent takeDamge;
+
+        [System.Serializable]
+        public class TakeDamageEvent : UnityEvent<float>
+        {
+
+        }
 
         LazyValue<float> healthAmount;
 
@@ -57,7 +63,7 @@ namespace Scripts.Resources
             }
             else
             {
-                takeDamge.Invoke();
+                takeDamge.Invoke(Damage);
             }
         }
 
@@ -71,7 +77,12 @@ namespace Scripts.Resources
         }
         public float GetPercentage()
         {
-            return (healthAmount.value / GetComponent<BaseStats>().GetStat(Stat.Health)) * 100;
+            return GetFraction() * 100;
+        }
+
+        public float GetFraction()
+        {
+            return healthAmount.value / GetComponent<BaseStats>().GetStat(Stat.Health);
         }
         private void Death()
         {

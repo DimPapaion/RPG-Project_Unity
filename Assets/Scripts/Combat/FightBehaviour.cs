@@ -2,7 +2,7 @@ using UnityEngine;
 using Scripts.Movement;
 using Scripts.Core;
 using Scripts.Saving;
-using Scripts.Resources;
+using Scripts.Attributes;
 using Scripts.Stats;
 using System.Collections.Generic;
 using Scripts.Utils;

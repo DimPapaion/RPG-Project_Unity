@@ -1,7 +1,7 @@
 using UnityEngine;
 using Scripts.Movement;
 using Scripts.Combat;
-using Scripts.Resources;
+using Scripts.Attributes;
 using System;
 using UnityEngine.EventSystems;
 using UnityEngine.AI;

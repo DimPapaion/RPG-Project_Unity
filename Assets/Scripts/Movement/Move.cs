@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using Scripts.Core;
 using Scripts.Saving;
-using Scripts.Resources;
+using Scripts.Attributes;
 
 namespace Scripts.Movement
 {
