@@ -13,7 +13,8 @@ namespace Scripts.Attributes
 
         void Update()
         {
-            if (Mathf.Approximately(healthCombonent.GetFraction(), 0))
+            if (Mathf.Approximately(healthCombonent.GetFraction(), 0) 
+                || Mathf.Approximately(healthCombonent.GetFraction(), 1))
             {
                 RootCanvas.enabled = false;
                 return;

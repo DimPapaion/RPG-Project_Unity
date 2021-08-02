@@ -2,13 +2,12 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.AI;
-
+using Scripts.Control;
 
 namespace Scripts.SceneManagment
 {
     public class Portal : MonoBehaviour
     {
-
         enum DestinationID
         {
             A,B,C,D,E
@@ -37,37 +36,42 @@ namespace Scripts.SceneManagment
                 yield break;
             }
 
-            
             DontDestroyOnLoad(gameObject);
+
             Fader fader = FindObjectOfType<Fader>();
+            SavingWrap savingWrapper = FindObjectOfType<SavingWrap>();
+            PlayerControl playerController = GameObject.FindWithTag("Player").GetComponent<PlayerControl>();
+            playerController.enabled = false;
 
             yield return fader.FadeOut(fadeOutTime);
 
-            // Saving the level
-
-            SavingWrap wrapper = FindObjectOfType<SavingWrap>();
-            wrapper.Save();
+            savingWrapper.Save();
 
             yield return SceneManager.LoadSceneAsync(sceneToLoad);
+            PlayerControl newPlayerController = GameObject.FindWithTag("Player").GetComponent<PlayerControl>();
+            newPlayerController.enabled = false;
 
-            //Load current Level
-            
-            wrapper.Load();
+            savingWrapper.Load();
 
             Portal otherPort = GetOtherPort();
             UpdatePlayer(otherPort);
 
-            wrapper.Save();
+            savingWrapper.Save();
+
             yield return new WaitForSeconds(FadeWaithTime);
-            yield return fader.FadeIn(fadeInTime);
+            fader.FadeIn(fadeInTime);
+
+            newPlayerController.enabled = true;
             Destroy(gameObject);
         }
 
         private void UpdatePlayer(Portal otherPort)
         {
             GameObject player =  GameObject.FindWithTag("Player");
-            player.GetComponent<NavMeshAgent>().Warp(otherPort.spawnPos.position);
+            player.GetComponent<NavMeshAgent>().enabled = false;
+            player.transform.position = otherPort.spawnPos.position;
             player.transform.rotation = otherPort.spawnPos.rotation;
+            player.GetComponent<NavMeshAgent>().enabled = true;
         }
 
         private Portal GetOtherPort()
@@ -75,9 +79,11 @@ namespace Scripts.SceneManagment
             foreach (Portal portal in FindObjectsOfType<Portal>())
             {
                 if (portal == this) continue;
-            if (portal.destination!= destination) continue;
+            if (portal.destination != destination) continue;
+
                 return portal;
             }
+
             return null;
         }
     }
