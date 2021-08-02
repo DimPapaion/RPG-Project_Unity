@@ -12,6 +12,7 @@ namespace Scripts.Attributes
     {
         [SerializeField] float regenerationPercentage = 70;
         [SerializeField] TakeDamageEvent takeDamge;
+        [SerializeField] UnityEvent onDie;
 
         [System.Serializable]
         public class TakeDamageEvent : UnityEvent<float>
@@ -58,6 +59,7 @@ namespace Scripts.Attributes
 
             if (healthAmount.value == 0)
             {
+                onDie.Invoke();
                 Death();
                 AwardExperiece(instigator);
             }

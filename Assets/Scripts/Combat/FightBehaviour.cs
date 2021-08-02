@@ -13,29 +13,30 @@ namespace Scripts.Combat
     {
         
         [SerializeField] float AttackDelay = 1.9f;
-        [SerializeField] Weapon defaultWeapon = null;
+        [SerializeField] WeaponConfig defaultWeapon = null;
         [SerializeField] Transform rightHandTransform = null;
         [SerializeField] Transform leftHandTransform = null;
 
 
         Health target;
         float lastAttackTime = Mathf.Infinity;
+        WeaponConfig currentWeaponConfig;
         LazyValue<Weapon> currentWeapon;
 
         private void Awake()
         {
+            currentWeaponConfig = defaultWeapon;
             currentWeapon = new LazyValue<Weapon>(SetupDefaultWeapon);
         }
 
         private Weapon SetupDefaultWeapon()
-        {
-            AttachWeapon(defaultWeapon);
-            return defaultWeapon;
+        { 
+            return AttachWeapon(defaultWeapon);
         }
 
         private void Start()
         {
-            currentWeapon.ForceInit();
+            currentWeapon.ForceInit();  
         }
 
 
@@ -55,17 +56,17 @@ namespace Scripts.Combat
                 AttackBehaviour();
             }
         }
-        public void EquipWeapon(Weapon weapon)
+        public void EquipWeapon(WeaponConfig weapon)
         {
-            currentWeapon.value = weapon;
-            AttachWeapon(weapon);
+            currentWeaponConfig = weapon;
+            currentWeapon.value = AttachWeapon(weapon);
 
         }
 
-        private void AttachWeapon(Weapon weapon)
+        private Weapon AttachWeapon(WeaponConfig weapon)
         {
             Animator animator = GetComponent<Animator>();
-            weapon.Spawn(rightHandTransform, leftHandTransform, animator);
+            return weapon.Spawn(rightHandTransform, leftHandTransform, animator);
         }
 
         public Health GetTarget()
@@ -84,7 +85,7 @@ namespace Scripts.Combat
         }
         private bool GetIsInRange()
         {
-            return Vector3.Distance(transform.position, target.transform.position) < currentWeapon.value.GetWeapRange();
+            return Vector3.Distance(transform.position, target.transform.position) < currentWeaponConfig.GetWeapRange();
         }
 
         public void Attack(GameObject enemyTarget)
@@ -109,7 +110,7 @@ namespace Scripts.Combat
         {
             if(stat == Stat.Damage)
             {
-                yield return currentWeapon.value.GetWeapDamage();
+                yield return currentWeaponConfig.GetWeapDamage();
             }
         }
 
@@ -117,7 +118,7 @@ namespace Scripts.Combat
         {
             if (stat == Stat.Damage)
             {
-                yield return currentWeapon.value.GetPercentageBonus();
+                yield return currentWeaponConfig.GetPercentageBonus();
             }
         }
 
@@ -141,9 +142,14 @@ namespace Scripts.Combat
         {
             if(target == null) return;
             float damage = GetComponent<BaseStats>().GetStat(Stat.Damage);
-            if (currentWeapon.value.hasProjectile())
+
+            if (currentWeapon.value != null)
+            {
+                currentWeapon.value.OnHit();
+            }
+            if (currentWeaponConfig.hasProjectile())
             { 
-                currentWeapon.value.LaunchProjectile(rightHandTransform, leftHandTransform, target, gameObject, damage);
+                currentWeaponConfig.LaunchProjectile(rightHandTransform, leftHandTransform, target, gameObject, damage);
             }
             else
             {
@@ -157,13 +163,13 @@ namespace Scripts.Combat
 
         public object CaptureState()
         {
-            return currentWeapon.value.name;
+            return currentWeaponConfig.name;
         }
 
         public void RestoreState(object state)
         {
             string weaponName = (string)state;
-            Weapon weapon = UnityEngine.Resources.Load<Weapon>(weaponName);
+            WeaponConfig weapon = UnityEngine.Resources.Load<WeaponConfig>(weaponName);
             EquipWeapon(weapon);
         }
     }

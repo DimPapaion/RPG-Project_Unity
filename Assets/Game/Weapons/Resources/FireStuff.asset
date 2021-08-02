@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FireStuff
   m_EditorClassIdentifier: 
   animatorOverride: {fileID: 22100000, guid: 2286dfcc9f9ed3347bb5e7da44b88dd3, type: 2}
-  weaponPref: {fileID: 3821981122505900326, guid: 94be46d34d5bb2c4290297690af0b6a4,
+  weaponPref: {fileID: -7978426000410607484, guid: 94be46d34d5bb2c4290297690af0b6a4,
     type: 3}
   WeaponDamage: 0
   percentageBonus: 25

@@ -1,5 +1,6 @@
 using UnityEngine;
 using Scripts.Attributes;
+using UnityEngine.Events;
 
 namespace Scripts.Combat
 {
@@ -12,6 +13,7 @@ namespace Scripts.Combat
         [SerializeField] float maxLifeTime = 10;
         [SerializeField] GameObject[] destroyOnHit = null;
         [SerializeField] float lifeAfterImpact = 2f;
+        [SerializeField] UnityEvent onHit;
 
         Health target = null;
         float damage = 5;
@@ -56,7 +58,10 @@ namespace Scripts.Combat
             target.DamageTaken(instigator, damage);
 
             speed = 0;
-            if(hitEffect !=null)
+
+            onHit.Invoke();
+
+            if (hitEffect !=null)
             {
                 Instantiate(hitEffect, GetAimLocation(), transform.rotation);
             }
