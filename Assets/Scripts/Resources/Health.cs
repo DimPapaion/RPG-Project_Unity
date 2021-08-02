@@ -4,12 +4,14 @@ using Scripts.Stats;
 using Scripts.Saving;
 using System;
 using Scripts.Utils;
+using UnityEngine.Events;
 
 namespace Scripts.Resources
 {
     public class Health : MonoBehaviour, ISaveable
     {
         [SerializeField] float regenerationPercentage = 70;
+        [SerializeField] UnityEvent takeDamge;
 
         LazyValue<float> healthAmount;
 
@@ -27,6 +29,7 @@ namespace Scripts.Resources
         private void Start()
         {
             healthAmount.ForceInit();
+            
         }
         private void OnEnable()
         {
@@ -45,10 +48,16 @@ namespace Scripts.Resources
         {
             print(gameObject.name + "Took damage: " + Damage);
             healthAmount.value = Mathf.Max(healthAmount.value- Damage, 0);
+           
+
             if (healthAmount.value == 0)
             {
                 Death();
                 AwardExperiece(instigator);
+            }
+            else
+            {
+                takeDamge.Invoke();
             }
         }
 

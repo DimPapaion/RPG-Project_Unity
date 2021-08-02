@@ -33,9 +33,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4271237734213146033}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.29, z: 0}
+  m_LocalPosition: {x: 0, y: 1.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2004491098623583467}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -148,11 +149,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 234200a7a445ce04cb778e1e80691c97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WeaponMeleRange: 1
   AttackDelay: 1.9
-  WeaponDamage: 20
-  weapon: {fileID: 0}
-  handTransform: {fileID: 0}
+  defaultWeapon: {fileID: 0}
+  rightHandTransform: {fileID: 0}
+  leftHandTransform: {fileID: 0}
 --- !u!114 &7460444530101086663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,7 +177,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de5b4ab239b673d4e9bfc5dc647db7fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthAmount: 1000
+  regenerationPercentage: 70
+  takeDamge:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4271237734213146033}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!136 &1188031637
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -205,3 +220,78 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uniqueIdentifier: 
+--- !u!1001 &2731585179615321332
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7480962826314256763}
+    m_Modifications:
+    - target: {fileID: 4483870227487356959, guid: 8df751032df231b4896f8a4e39e4acf8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483870227487356959, guid: 8df751032df231b4896f8a4e39e4acf8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483870227487356959, guid: 8df751032df231b4896f8a4e39e4acf8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483870227487356959, guid: 8df751032df231b4896f8a4e39e4acf8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483870227487356959, guid: 8df751032df231b4896f8a4e39e4acf8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483870227487356959, guid: 8df751032df231b4896f8a4e39e4acf8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483870227487356959, guid: 8df751032df231b4896f8a4e39e4acf8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483870227487356959, guid: 8df751032df231b4896f8a4e39e4acf8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483870227487356959, guid: 8df751032df231b4896f8a4e39e4acf8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483870227487356959, guid: 8df751032df231b4896f8a4e39e4acf8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483870227487356959, guid: 8df751032df231b4896f8a4e39e4acf8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8841460980224402333, guid: 8df751032df231b4896f8a4e39e4acf8,
+        type: 3}
+      propertyPath: m_Name
+      value: ' Damage Txt Spawn'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8df751032df231b4896f8a4e39e4acf8, type: 3}
+--- !u!4 &2004491098623583467 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4483870227487356959, guid: 8df751032df231b4896f8a4e39e4acf8,
+    type: 3}
+  m_PrefabInstance: {fileID: 2731585179615321332}
+  m_PrefabAsset: {fileID: 0}
