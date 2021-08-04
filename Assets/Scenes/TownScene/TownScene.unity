@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: eb7a53d4b80c26941afd1c97535f7c6b,
+    type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -122,7 +123,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 7c509dca840ea784484c6b6558afe30d, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: eeb000757a3132f49a382f75667b4b97, type: 2}
 --- !u!1001 &5087338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3131,7 +3132,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.6626866, y: 1}
+    m_SensorSize: {x: 2.3308458, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3147,8 +3148,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239788403}
-  m_LocalRotation: {x: 0.099540025, y: 0.7060213, z: -0.6938051, w: 0.101292685}
-  m_LocalPosition: {x: 60.03783, y: 8.24019, z: -3.2915792}
+  m_LocalRotation: {x: -0.3112539, y: 0.6390662, z: -0.6280086, w: -0.3167343}
+  m_LocalPosition: {x: 60.225803, y: 8.240201, z: -3.353382}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1666945818}
@@ -3201,7 +3202,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.6626866, y: 1}
+    m_SensorSize: {x: 2.3308458, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3217,7 +3218,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240850984}
-  m_LocalRotation: {x: 0.10373526, y: 0.5084685, z: -0.061867367, w: 0.8525675}
+  m_LocalRotation: {x: 0.10373524, y: 0.50846845, z: -0.061867356, w: 0.8525675}
   m_LocalPosition: {x: -8.838314, y: 1.1116104, z: -4.0369434}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -17134,7 +17135,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.6626866, y: 1}
+    m_SensorSize: {x: 2.3308458, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -19991,6 +19992,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1397751737}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1406184328
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterDepthMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 1024
+  m_Height: 1024
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 2
+  m_ColorFormat: 142
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &1415423358 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9158634851279682224, guid: 8b9487fe49cd977479f40337fe62b05d,
@@ -22444,42 +22481,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1610616720}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1611893861
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: WaterDepthMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
-  m_Width: 1024
-  m_Height: 1024
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthFormat: 2
-  m_ColorFormat: 142
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &1647090875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24610,7 +24611,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.6626866, y: 1}
+    m_SensorSize: {x: 2.3308458, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
