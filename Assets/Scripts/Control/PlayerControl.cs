@@ -5,6 +5,7 @@ using Scripts.Attributes;
 using System;
 using UnityEngine.EventSystems;
 using UnityEngine.AI;
+using Scripts.Core.CameraUI;
 
 namespace Scripts.Control
 {
@@ -23,12 +24,15 @@ namespace Scripts.Control
         [SerializeField] CursorMapping[] cursorMappings = null;
         [SerializeField] float maxNavMeshProjectionDistance = 1f;
         [SerializeField] float maxNavPathLength = 40f;
+        public CameraSettings cameraSettings;
+        protected Vector2 m_Camera;
         private void Awake()
         {
             health = GetComponent<Health>();
         }
         private void Update()
         {
+            m_Camera.Set(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
             if (InteractWithUI()) return;
             if (health.IsDead()) 
             {

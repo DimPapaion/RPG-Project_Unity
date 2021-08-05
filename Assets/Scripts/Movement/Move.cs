@@ -3,6 +3,7 @@ using UnityEngine.AI;
 using Scripts.Core;
 using Scripts.Saving;
 using Scripts.Attributes;
+using Scripts.Core.CameraUI;
 
 namespace Scripts.Movement
 {
@@ -11,6 +12,7 @@ namespace Scripts.Movement
         [SerializeField] float maxSpeed = 6f;
         public NavMeshAgent agent;
         Health health;
+        protected CameraSettings cameraSettings;
 
         private void Awake()
         {
