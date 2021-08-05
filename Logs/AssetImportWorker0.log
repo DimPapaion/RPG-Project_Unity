@@ -472,3 +472,1803 @@ Received Import Request.
   path: Assets/Resources/Viking Village/Boat Attack Water System/Meshes/SeaVertDisp.fbx
   artifactKey: Guid(074aa8ca109924e18baf19f3e26665b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Resources/Viking Village/Boat Attack Water System/Meshes/SeaVertDisp.fbx using Guid(074aa8ca109924e18baf19f3e26665b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e468ae8fda82499c101f3079e832dc') in 0.572803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.299794 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Meshes/InfiniteSea.fbx
+  artifactKey: Guid(0694fda6617df4cd6a3d240f5eeb580b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Meshes/InfiniteSea.fbx using Guid(0694fda6617df4cd6a3d240f5eeb580b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc61ec2baf8e94f2231423c0332f6d2') in 0.054933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Meshes/Water.fbx
+  artifactKey: Guid(fb2f5cec30b474b89b778e3aab6f3dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Meshes/Water.fbx using Guid(fb2f5cec30b474b89b778e3aab6f3dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a559167cb2aaab38bb321ea25819b159') in 0.120951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Meshes/SeaVertDisp.fbx
+  artifactKey: Guid(074aa8ca109924e18baf19f3e26665b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Meshes/SeaVertDisp.fbx using Guid(074aa8ca109924e18baf19f3e26665b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2ee746f4d890685b310fad7113d4b1') in 0.522626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.966179 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Materials
+  artifactKey: Guid(281da5c5be36c43d6963c96af26acf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Materials using Guid(281da5c5be36c43d6963c96af26acf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750c8a41224543f7c21953bffbd0d733') in 0.005253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038656 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Materials/Caustics.mat
+  artifactKey: Guid(7e6ea000873112847bd146ddb78ac67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Materials/Caustics.mat using Guid(7e6ea000873112847bd146ddb78ac67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb69088741d5073b7062dd14a7e080e') in 0.089542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Materials/Sea.mat
+  artifactKey: Guid(4849d4d15a9cb42eb9533ae935e2630b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Materials/Sea.mat using Guid(4849d4d15a9cb42eb9533ae935e2630b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a6e66e82ba55b9f13bc78090fdba4a') in 0.025816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Materials/InfiniteWater.mat
+  artifactKey: Guid(e9927401bf96341d5bba91ea4c815e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Materials/InfiniteWater.mat using Guid(e9927401bf96341d5bba91ea4c815e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25a92600e843ffdb4d7ed55ae310a68') in 0.199196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.850841 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Materials/Sea.mat
+  artifactKey: Guid(4849d4d15a9cb42eb9533ae935e2630b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Materials/Sea.mat using Guid(4849d4d15a9cb42eb9533ae935e2630b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60652e44269bba6489c04ca283f04a0f') in 0.019726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.019659 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Editor
+  artifactKey: Guid(ff6ef3b3109514061b996e1f998625ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Editor using Guid(ff6ef3b3109514061b996e1f998625ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808a6dcfe51ffdef3f0a0c824dde7867') in 0.013218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064475 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Editor/WaterSystem.editor.asmdef
+  artifactKey: Guid(7ccf8aeedcc0c4661aacb3c94f093356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Editor/WaterSystem.editor.asmdef using Guid(7ccf8aeedcc0c4661aacb3c94f093356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0612b9b12c2b6b37e61ba8ff5dcd4df1') in 0.017649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.851583 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Editor/WaterEditor.cs
+  artifactKey: Guid(7760ef1f46dfd455cae527e7f91824d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Editor/WaterEditor.cs using Guid(7760ef1f46dfd455cae527e7f91824d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7441e082b79324067dbbd5382a6f79') in 0.017812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.562624 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Prefabs
+  artifactKey: Guid(cd567ef25165fbd4da6b4ebe5c962b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Prefabs using Guid(cd567ef25165fbd4da6b4ebe5c962b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53f263fdc9ce43e505c1f6fe59318dc') in 0.014741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.637345 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Scripts
+  artifactKey: Guid(cfac61b5ac93c4101b40011e6cd637b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Scripts using Guid(cfac61b5ac93c4101b40011e6cd637b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc123d0aaceefc3f258aefa54d35ce8e') in 0.014324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061159 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Scripts/WaterSystem.Runtime.asmdef
+  artifactKey: Guid(eee6090a63a1e48e6857869e0cbe74dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Scripts/WaterSystem.Runtime.asmdef using Guid(eee6090a63a1e48e6857869e0cbe74dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13f95ee6b5a4e2430783df73e0efc12') in 0.016715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.040073 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Editor/BuoyantObjectEditor.cs
+  artifactKey: Guid(8763206c9fce6479698aa739878ca7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Editor/BuoyantObjectEditor.cs using Guid(8763206c9fce6479698aa739878ca7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3eb299d37feea78d3e3fa3ec12dba6f') in 0.013780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.375320 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Editor/WaterSettingsDataEditor.cs
+  artifactKey: Guid(0935a4ad227524d3cae739e174b846b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Editor/WaterSettingsDataEditor.cs using Guid(0935a4ad227524d3cae739e174b846b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab2ffb6ae6338d5b3a12afb65c1efaa') in 0.014464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.823726 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Editor/WaterSurfaceDataEditor.cs
+  artifactKey: Guid(1016bd3ba0af54af184326cd470c1bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Editor/WaterSurfaceDataEditor.cs using Guid(1016bd3ba0af54af184326cd470c1bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c68104a4ee7e6305a61e202c38b126') in 0.026752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.335345 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Editor/PlanarSettingsDrawer.cs
+  artifactKey: Guid(e0bc0b238a7fa4c69938228f2c8d657e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Editor/PlanarSettingsDrawer.cs using Guid(e0bc0b238a7fa4c69938228f2c8d657e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2ed6f8204be64e213f0b87b1cb7893') in 0.010993 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016833 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.832 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2833ms)
+		BeginReloadAssembly (250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (2465ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (625ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (1282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (1098ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (67ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4828 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 298.8 MB.
+System memory in use after: 299.2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 5611.
+Total: 6.423700 ms (FindLiveObjects: 0.673300 ms CreateObjectMapping: 0.453500 ms MarkObjects: 5.062100 ms  DeleteObjects: 0.232700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35.996336 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/SeaVisual.prefab
+  artifactKey: Guid(2cac2e60f3f6f2447ad9b550450f60ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/SeaVisual.prefab using Guid(2cac2e60f3f6f2447ad9b550450f60ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa8669d25d43c9c868ffe2e7d1282b2') in 0.067491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.993161 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Shaders
+  artifactKey: Guid(6aab7b5e54a384c2790bfb04db9d7cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Shaders using Guid(6aab7b5e54a384c2790bfb04db9d7cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1da9f18de84b31a63c7ed825312537') in 0.014239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.961848 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Shaders/InfiniteWater.shader
+  artifactKey: Guid(5f51d4f8f480441339ead24ab495af7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Shaders/InfiniteWater.shader using Guid(5f51d4f8f480441339ead24ab495af7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e1a1290ea3cfe2520a927bfd130ee7') in 0.013701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.834692 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Prefabs/Water.prefab
+  artifactKey: Guid(d1815a87ce08fec4a946a23dda29aadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Prefabs/Water.prefab using Guid(d1815a87ce08fec4a946a23dda29aadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a9fef1b18204cc715a2c8362c00657') in 0.014413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.750357 seconds.
+  path: Assets/Resources/Viking Village/Rendering
+  artifactKey: Guid(0f84e64aaa8204ef49b8fb23e124a845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Rendering using Guid(0f84e64aaa8204ef49b8fb23e124a845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7d7ca077cbea2cfabbbb11b6256aa2') in 0.012658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.094499 seconds.
+  path: Assets/Resources/Viking Village/Rendering/PlanarReflections_Renderer.asset
+  artifactKey: Guid(c14ee134214125043b32209b9d34fe0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Rendering/PlanarReflections_Renderer.asset using Guid(c14ee134214125043b32209b9d34fe0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bf665b02e1d5d5150100294190bb90') in 0.016326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Resources/Viking Village/Rendering/VikingVillageUniversal_Renderer.asset
+  artifactKey: Guid(1d27b047a5cc949158b1eef91ffadf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Rendering/VikingVillageUniversal_Renderer.asset using Guid(1d27b047a5cc949158b1eef91ffadf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0d397e04c39954170b273bc285f66b') in 0.014871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Resources/Viking Village/Rendering/PlanarReflectionsPostProcessData.asset
+  artifactKey: Guid(857bf26b4bcbff14894255f214eb8233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Rendering/PlanarReflectionsPostProcessData.asset using Guid(857bf26b4bcbff14894255f214eb8233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a55a680a1da16f67cd9fa2379e4bd0c') in 0.013514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Resources/Viking Village/Rendering/VikingVillageUniversal.asset
+  artifactKey: Guid(701c012fd7dc64999a5ec8ff0b9b0d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Rendering/VikingVillageUniversal.asset using Guid(701c012fd7dc64999a5ec8ff0b9b0d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3757e9c93c0630ed6ca3f14ca2554e19') in 0.016399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.450488 seconds.
+  path: Assets/Resources/Viking Village/Shaders
+  artifactKey: Guid(20727c4c9b37445de97140672bd982d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Shaders using Guid(20727c4c9b37445de97140672bd982d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36f50c1395f343eae4579e4769e2f23') in 0.008247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077535 seconds.
+  path: Assets/Resources/Viking Village/Shaders/MyTerrainLayer.shadersubgraph
+  artifactKey: Guid(a88b4fd1a926e4295994c8a7f5557626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Shaders/MyTerrainLayer.shadersubgraph using Guid(a88b4fd1a926e4295994c8a7f5557626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb155218f5f100191919eb910aeddb6') in 0.021265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.034437 seconds.
+  path: Assets/Resources/Viking Village/Shaders/Editor
+  artifactKey: Guid(831b14e9588ec44e3958385bc79a2cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Shaders/Editor using Guid(831b14e9588ec44e3958385bc79a2cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598b0db29ae424f6197b4bb2b3f0cd6d') in 0.011577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.461091 seconds.
+  path: Assets/Resources/Viking Village/Textures
+  artifactKey: Guid(d10685a5aa27948269205dc61b07feb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Textures using Guid(d10685a5aa27948269205dc61b07feb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26148f3838fe21c8e7a8d0748c7aac3') in 0.023687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.765722 seconds.
+  path: Assets/Resources/Viking Village/Textures/Effects
+  artifactKey: Guid(0c671edbc4f81473298d2892f28c35b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Textures/Effects using Guid(0c671edbc4f81473298d2892f28c35b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265cf7761291d63b3bfeef656840d5fd') in 0.023613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.538918 seconds.
+  path: Assets/Resources/Viking Village/Textures/Props
+  artifactKey: Guid(203bd8cb9b3ee42269303b55e45c6f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Textures/Props using Guid(203bd8cb9b3ee42269303b55e45c6f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211ccd4d38816c146b1420ef31b49fff') in 0.021859 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.4 MB.
+System memory in use after: 203.7 MB.
+
+Unloading 225 unused Assets to reduce memory usage. Loaded Objects now: 5422.
+Total: 6.735400 ms (FindLiveObjects: 0.526500 ms CreateObjectMapping: 0.247900 ms MarkObjects: 4.930700 ms  DeleteObjects: 1.028700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:srp/default-shader: 00a0da0d000000000000000000000000 -> 0000e00a000e0de00000e000e0000000
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014774 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.654 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2664ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (2353ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (632ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (1218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (1050ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4843 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 299.3 MB.
+System memory in use after: 299.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 5626.
+Total: 6.644800 ms (FindLiveObjects: 0.656400 ms CreateObjectMapping: 0.323600 ms MarkObjects: 5.450300 ms  DeleteObjects: 0.212100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 281.610079 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(225739d1084986349b12ed1a2fdc74f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(225739d1084986349b12ed1a2fdc74f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32be57189c19431ce0c9e072698bf3a0') in 0.018881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.999437 seconds.
+  path: Assets/Textures/Terrain
+  artifactKey: Guid(071309cb1006bf7488ebabbcf22e2821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain using Guid(071309cb1006bf7488ebabbcf22e2821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec9a12335271d568cb65882dcd1e8ca') in 0.014855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071756 seconds.
+  path: Assets/Textures/Terrain/grass.terrainlayer
+  artifactKey: Guid(bf06dbe3f796d3540a2554b0b2601178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain/grass.terrainlayer using Guid(bf06dbe3f796d3540a2554b0b2601178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fee3f43b25bfeb46978b26ba5fb4ab') in 0.121374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000928 seconds.
+  path: Assets/Textures/Terrain/water.terrainlayer
+  artifactKey: Guid(a3b711805704235418586b2ccb9e5491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain/water.terrainlayer using Guid(a3b711805704235418586b2ccb9e5491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfb751df5c8bbc4bab1688d580d3d90') in 0.049705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Textures/Terrain/graSSWater.terrainlayer
+  artifactKey: Guid(db7687439f7b2fb458e0a653a27d6d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain/graSSWater.terrainlayer using Guid(db7687439f7b2fb458e0a653a27d6d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6540e31416490a5a34e3b082ff63e02') in 0.034278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.687607 seconds.
+  path: Assets/Skyboxes/New Material.mat
+  artifactKey: Guid(be08dbb3f4087cb4fb333d39d4173263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/New Material.mat using Guid(be08dbb3f4087cb4fb333d39d4173263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9161bd3441339da6a44611ebe1299635') in 0.471111 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013631 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.830 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2830ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (2486ms)
+			LoadAssemblies (169ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (671ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (1245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (1077ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (68ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4828 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 299.1 MB.
+System memory in use after: 299.5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 5658.
+Total: 6.459000 ms (FindLiveObjects: 0.972200 ms CreateObjectMapping: 0.541800 ms MarkObjects: 4.731200 ms  DeleteObjects: 0.202000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 64.135244 seconds.
+  path: Assets/Resources/Viking Village/Standard Assets
+  artifactKey: Guid(5089983b8793f4b3dad7e3b5fd9eac50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Standard Assets using Guid(5089983b8793f4b3dad7e3b5fd9eac50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3a8d2f0e1c1a1e0f02719418145419') in 0.022541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.115505 seconds.
+  path: Assets/Resources/Viking Village/Standard Assets/Utility
+  artifactKey: Guid(f56e665a1f23b4072bc14c24738442f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Standard Assets/Utility using Guid(f56e665a1f23b4072bc14c24738442f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd57ca4d745b1a7fa257bfa9a14022a2') in 0.012499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.354405 seconds.
+  path: Assets/Resources/Viking Village/Standard Assets/Characters
+  artifactKey: Guid(271a21245b6ff45878cbd24a6861dbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Standard Assets/Characters using Guid(271a21245b6ff45878cbd24a6861dbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625fa59d22893a4ed6cedb850f91948c') in 0.011957 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019729 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.678 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2679ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (2374ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (625ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (1237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (1066ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 298.9 MB.
+System memory in use after: 299.3 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 5651.
+Total: 8.265900 ms (FindLiveObjects: 0.786600 ms CreateObjectMapping: 0.501700 ms MarkObjects: 6.771000 ms  DeleteObjects: 0.204500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22.908050 seconds.
+  path: Assets/Resources/Viking Village/Textures/Buildings
+  artifactKey: Guid(2ff3ac75027c94dbba384fcae23e6466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Textures/Buildings using Guid(2ff3ac75027c94dbba384fcae23e6466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d89015561e0209318876474da8de31') in 0.038108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.151276 seconds.
+  path: Assets/Resources/Viking Village/Textures/Terrain
+  artifactKey: Guid(e534e8703ed1a47f4a514c286ca61894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Textures/Terrain using Guid(e534e8703ed1a47f4a514c286ca61894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfcfb9f56a7483afc0aa963dda5f96f') in 0.015596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.924619 seconds.
+  path: Assets/Resources/Viking Village/Textures/Vegetation
+  artifactKey: Guid(fe293a158f4c84c53ac446ca72f8ec77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Textures/Vegetation using Guid(fe293a158f4c84c53ac446ca72f8ec77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9226db0d38e997ffb7deca679d6039d6') in 0.023320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.222765 seconds.
+  path: Assets/Resources/Viking Village/Textures/Skies
+  artifactKey: Guid(b62e45b9469e9417892a903027eb7c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Textures/Skies using Guid(b62e45b9469e9417892a903027eb7c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeda1a1feaad57f68b44ae11662ada95') in 0.023477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.050066 seconds.
+  path: Assets/Resources/Viking Village/Textures/Skies/Daytime
+  artifactKey: Guid(ad75534bdc9bc41f3b36cce0a6d89b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Textures/Skies/Daytime using Guid(ad75534bdc9bc41f3b36cce0a6d89b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c90f48185e2450f125f60a28d4cc228') in 0.023860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.079874 seconds.
+  path: Assets/Resources/Viking Village/Textures/Skies/Daytime/SunsetSkyboxHDR.mat
+  artifactKey: Guid(4fdd082fc5e8c9d4f94ce7c5e541959a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Textures/Skies/Daytime/SunsetSkyboxHDR.mat using Guid(4fdd082fc5e8c9d4f94ce7c5e541959a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ea8708503a5e12e7088a06697e6095') in 0.430410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.464728 seconds.
+  path: Assets/Resources/Viking Village/Textures/Props/Materials
+  artifactKey: Guid(4ca85ea494477c54ca3a539ae46db14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Textures/Props/Materials using Guid(4ca85ea494477c54ca3a539ae46db14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c120902a515e9df19d08575a90dddbc') in 0.012653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.092761 seconds.
+  path: Assets/Resources/Viking Village/Textures/Props/Materials/prop_boardwalk_01_d 1.mat
+  artifactKey: Guid(1ed0ad6b4a6a7a744be942e219963d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Textures/Props/Materials/prop_boardwalk_01_d 1.mat using Guid(1ed0ad6b4a6a7a744be942e219963d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b13c647fcd2165f93a62836268e44b5') in 0.142569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Resources/Viking Village/Textures/Props/Materials/prop_boardwalk_01_d.mat
+  artifactKey: Guid(4c71dcdf928d8774b9953b1fefefc4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Textures/Props/Materials/prop_boardwalk_01_d.mat using Guid(4c71dcdf928d8774b9953b1fefefc4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eebbb36f086b27987c549f8b828c61d') in 0.039522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Resources/Viking Village/Textures/Props/Materials/prop_boardwalk_01_n.mat
+  artifactKey: Guid(6c0d6f8b4dbf2514697d4bc97d38a090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Textures/Props/Materials/prop_boardwalk_01_n.mat using Guid(6c0d6f8b4dbf2514697d4bc97d38a090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18bbe213dd0c40c29e1715d2cfb7e12d') in 0.044202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.776432 seconds.
+  path: Assets/Resources/Viking Village/Shaders/LitSSS_Cutout
+  artifactKey: Guid(9405fc64b429e1046bc7eb3d4395fed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Shaders/LitSSS_Cutout using Guid(9405fc64b429e1046bc7eb3d4395fed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4560f2cc82f8bfb1ccb717281706d0d4') in 0.013345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.992562 seconds.
+  path: Assets/Resources/Viking Village/Shaders/LitSSS_Cutout/Subgraphs
+  artifactKey: Guid(dfd4ae93fb1440e489ceb42e58e2fa2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Shaders/LitSSS_Cutout/Subgraphs using Guid(dfd4ae93fb1440e489ceb42e58e2fa2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8bc7a0cd8c6e1fba24b90afe1eeeb7') in 0.017085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.692031 seconds.
+  path: Assets/Resources/Viking Village/Shaders/LitSSS_Cutout/Subgraphs/MainLight.shadersubgraph
+  artifactKey: Guid(4f3bad550e8b945e3870ebdfb46584d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Shaders/LitSSS_Cutout/Subgraphs/MainLight.shadersubgraph using Guid(4f3bad550e8b945e3870ebdfb46584d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a13ca12c7e5b75f0c5fc1ab15ba552') in 0.027767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Resources/Viking Village/Shaders/LitSSS_Cutout/Subgraphs/Object-TangentNormals.shadersubgraph
+  artifactKey: Guid(44c9615ee9564f44eb9956c5584ee823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Shaders/LitSSS_Cutout/Subgraphs/Object-TangentNormals.shadersubgraph using Guid(44c9615ee9564f44eb9956c5584ee823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad5d506375f53d429397e27a82b2dd4') in 0.014036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 695.232870 seconds.
+  path: Assets/Water.shadergraph
+  artifactKey: Guid(ece8fcb924777074eb00d80270d69da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Water.shadergraph using Guid(ece8fcb924777074eb00d80270d69da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b04608c0ed64591fe80341487cd07df') in 0.018150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.433163 seconds.
+  path: Assets/WaterMat.mat
+  artifactKey: Guid(a04f5ecaa4a735b42a37c1433c88428b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaterMat.mat using Guid(a04f5ecaa4a735b42a37c1433c88428b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ae21884b40bdc4a544ffa0e8ab8f3e') in 1.199944 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.280043 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.918 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2919ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (2559ms)
+			LoadAssemblies (170ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (615ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (1339ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (1140ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (68ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4836 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 299.2 MB.
+System memory in use after: 299.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 5701.
+Total: 6.358300 ms (FindLiveObjects: 0.585900 ms CreateObjectMapping: 0.243300 ms MarkObjects: 5.290200 ms  DeleteObjects: 0.236800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 720.961977 seconds.
+  path: Assets/Resources/Viking Village/Shaders/Standard_AlphaClip.shadergraph
+  artifactKey: Guid(5b5b1b40faf88294a905762516ca4848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Shaders/Standard_AlphaClip.shadergraph using Guid(5b5b1b40faf88294a905762516ca4848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe875fc48d50c94e4e77653480947a0') in 0.039386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.696932 seconds.
+  path: Assets/Resources/Viking Village/Shaders/Standard.shadergraph
+  artifactKey: Guid(65ab067e659b9d64cb1b6f50a7ee7735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Shaders/Standard.shadergraph using Guid(65ab067e659b9d64cb1b6f50a7ee7735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc68410de8bd7d37c1a3c5ff73bf5892') in 0.015309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.067217 seconds.
+  path: Assets/Resources/Viking Village/Shaders/TerrainSurfaceGraph.shadergraph
+  artifactKey: Guid(d49ce931685254145b8eae9c754d22db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Shaders/TerrainSurfaceGraph.shadergraph using Guid(d49ce931685254145b8eae9c754d22db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3918b7b76b3a96f3eda96055b07ba0ef') in 0.032111 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019780 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.500 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4501ms)
+		BeginReloadAssembly (259ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (4078ms)
+			LoadAssemblies (233ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (928ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (159ms)
+			SetupLoadedEditorAssemblies (2368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (242ms)
+				ProcessInitializeOnLoadAttributes (2065ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 299.0 MB.
+System memory in use after: 299.4 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 5693.
+Total: 13.747300 ms (FindLiveObjects: 0.870800 ms CreateObjectMapping: 0.920200 ms MarkObjects: 11.528100 ms  DeleteObjects: 0.425100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023435 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.000 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3001ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (2667ms)
+			LoadAssemblies (183ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (676ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (1405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (1229ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4834 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 299.4 MB.
+System memory in use after: 299.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 5703.
+Total: 6.385500 ms (FindLiveObjects: 0.598500 ms CreateObjectMapping: 0.238100 ms MarkObjects: 4.982600 ms  DeleteObjects: 0.564500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031617 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.856 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3857ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (3457ms)
+			LoadAssemblies (218ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1024ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (1788ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (1554ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (57ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4850 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 299.8 MB.
+System memory in use after: 300.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 5721.
+Total: 16.018400 ms (FindLiveObjects: 1.566200 ms CreateObjectMapping: 1.425200 ms MarkObjects: 12.561100 ms  DeleteObjects: 0.462300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6245.057291 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Shaders/Water.shader
+  artifactKey: Guid(a94edd303261140cf9e6ce8c90d7a99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Shaders/Water.shader using Guid(a94edd303261140cf9e6ce8c90d7a99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3008d52849b543a13b5f66e30ad809') in 0.038312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 163.793880 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Shaders/Graphs
+  artifactKey: Guid(88513df6dcc2e42048817fd8a57904b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Shaders/Graphs using Guid(88513df6dcc2e42048817fd8a57904b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decbc0b93b0896bf26d3ed22758b630d') in 0.026567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Shaders/Graphs/Direction.shadersubgraph
+  artifactKey: Guid(b736aebad82ef413a938600669d91b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Shaders/Graphs/Direction.shadersubgraph using Guid(b736aebad82ef413a938600669d91b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b1c482b592cdf043a6e3fe5c132fdc') in 0.027075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Shaders/Graphs/GestnerWaves.shadersubgraph
+  artifactKey: Guid(050d4204de13e4b108feb78488946f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Shaders/Graphs/GestnerWaves.shadersubgraph using Guid(050d4204de13e4b108feb78488946f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a984e4cb1b24c802153b50e3482f44ea') in 0.023046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.407639 seconds.
+  path: Assets/Resources/Viking Village/Rendering
+  artifactKey: Guid(0f84e64aaa8204ef49b8fb23e124a845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Rendering using Guid(0f84e64aaa8204ef49b8fb23e124a845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f000a88df7cd492511386a5bd82c83db') in 0.021235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Resources/Viking Village/Rendering/PlanarReflections_Renderer.asset
+  artifactKey: Guid(c14ee134214125043b32209b9d34fe0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Rendering/PlanarReflections_Renderer.asset using Guid(c14ee134214125043b32209b9d34fe0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ecb361ef81f172f83ec7d579450453') in 0.021543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000799 seconds.
+  path: Assets/Resources/Viking Village/Rendering/VikingVillageUniversal_Renderer.asset
+  artifactKey: Guid(1d27b047a5cc949158b1eef91ffadf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Rendering/VikingVillageUniversal_Renderer.asset using Guid(1d27b047a5cc949158b1eef91ffadf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282c76b66c09cc6f1c188fd279b7084f') in 0.097110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Resources/Viking Village/Rendering/PlanarReflectionsPostProcessData.asset
+  artifactKey: Guid(857bf26b4bcbff14894255f214eb8233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Rendering/PlanarReflectionsPostProcessData.asset using Guid(857bf26b4bcbff14894255f214eb8233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ba618184b12260164d7a6ba43cb7a2') in 0.020474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Resources/Viking Village/Rendering/VikingVillageUniversal.asset
+  artifactKey: Guid(701c012fd7dc64999a5ec8ff0b9b0d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Rendering/VikingVillageUniversal.asset using Guid(701c012fd7dc64999a5ec8ff0b9b0d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a45a8de507a94c3e52ea8fdcaf7f8ce') in 0.023556 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 204.1 MB.
+System memory in use after: 204.5 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 5718.
+Total: 7.779100 ms (FindLiveObjects: 0.599000 ms CreateObjectMapping: 0.309700 ms MarkObjects: 6.123900 ms  DeleteObjects: 0.745000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 164.899721 seconds.
+  path: Assets/Resources/Viking Village/Shaders
+  artifactKey: Guid(20727c4c9b37445de97140672bd982d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Shaders using Guid(20727c4c9b37445de97140672bd982d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9120ed086b2cf2c9612300901bdeabc') in 0.016540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078582 seconds.
+  path: Assets/Resources/Viking Village/Shaders/MyTerrainLayer.shadersubgraph
+  artifactKey: Guid(a88b4fd1a926e4295994c8a7f5557626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Shaders/MyTerrainLayer.shadersubgraph using Guid(a88b4fd1a926e4295994c8a7f5557626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d181057249e23cbb356ae5142211e98') in 0.018998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.148322 seconds.
+  path: Assets/Resources/Viking Village/Shaders/TerrainSurfaceGraph.shadergraph
+  artifactKey: Guid(d49ce931685254145b8eae9c754d22db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Shaders/TerrainSurfaceGraph.shadergraph using Guid(d49ce931685254145b8eae9c754d22db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c710c4e63abecc02e11e01698c9c0c') in 0.020518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.516733 seconds.
+  path: Assets/Resources/Viking Village/Shaders/Standard.shadergraph
+  artifactKey: Guid(65ab067e659b9d64cb1b6f50a7ee7735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Shaders/Standard.shadergraph using Guid(65ab067e659b9d64cb1b6f50a7ee7735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68acd96ffa817f2a73114e6683066323') in 0.015377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.529892 seconds.
+  path: Assets/Resources/Viking Village/Shaders/Editor
+  artifactKey: Guid(831b14e9588ec44e3958385bc79a2cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Shaders/Editor using Guid(831b14e9588ec44e3958385bc79a2cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55f3ccaf454b57d41d9debe78767b1c') in 0.015573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.873301 seconds.
+  path: Assets/Reflection Probe.prefab
+  artifactKey: Guid(1ccba3c2da603b247ae47fafb07c60bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reflection Probe.prefab using Guid(1ccba3c2da603b247ae47fafb07c60bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15dd4015d778c53cd65794c34c732b91') in 0.060274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 221.939320 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(e0943b9952563204ba27a5f609ff730b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(e0943b9952563204ba27a5f609ff730b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2775f705d34879b826f3ab945cf02e2') in 0.026362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.355118 seconds.
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(4e384a94240f61d46a0736239de31b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(4e384a94240f61d46a0736239de31b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18930dbf4fdd8ae0c92c53185901273a') in 0.023622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(047d5e30c44c3f049aa395be665d20dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(047d5e30c44c3f049aa395be665d20dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3328e4519780f3c4d55838b1ff4bd5') in 0.022065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 271.169769 seconds.
+  path: Assets/Textures/Terrain/grass.terrainlayer
+  artifactKey: Guid(bf06dbe3f796d3540a2554b0b2601178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain/grass.terrainlayer using Guid(bf06dbe3f796d3540a2554b0b2601178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2786c08c86c1ee8abecd530837c1b90b') in 0.164271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: Assets/Textures/Terrain/water.terrainlayer
+  artifactKey: Guid(a3b711805704235418586b2ccb9e5491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain/water.terrainlayer using Guid(a3b711805704235418586b2ccb9e5491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26794dad353418727954f427c9edf1fd') in 0.103969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Textures/Terrain/graSSWater.terrainlayer
+  artifactKey: Guid(db7687439f7b2fb458e0a653a27d6d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain/graSSWater.terrainlayer using Guid(db7687439f7b2fb458e0a653a27d6d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0d1673fb46ed895ac4bf0b65de46ba') in 0.063435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Textures/Terrain/mountain.terrainlayer
+  artifactKey: Guid(4444fe49bc9bc6844b77fa2ee3b3f1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain/mountain.terrainlayer using Guid(4444fe49bc9bc6844b77fa2ee3b3f1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bb64e2a85560d30656339f3b8ed63c') in 0.078617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.531191 seconds.
+  path: Assets/Resources/Viking Village/Scenes
+  artifactKey: Guid(3c40643b727c84c9cb37d46aa5fab696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes using Guid(3c40643b727c84c9cb37d46aa5fab696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac42c9ebcb37588c2a4975fec4560a76') in 0.029900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.364054 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village
+  artifactKey: Guid(6ad56aad0155b45c886446103adcc5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village using Guid(6ad56aad0155b45c886446103adcc5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a6e13ea5747f1404095961121056e1') in 0.020178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.075157 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Box Volume Profile.asset
+  artifactKey: Guid(bca239d13059d7c4ba9166704a300139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Box Volume Profile.asset using Guid(bca239d13059d7c4ba9166704a300139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caba147030329e49c7f4ee89e9ff2008') in 0.019855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-18.exr
+  artifactKey: Guid(8d44105caec0a8a428c4742d1178d650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-18.exr using Guid(8d44105caec0a8a428c4742d1178d650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d63720907bb5b915042eadd0f6b8268') in 0.138621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-19.exr
+  artifactKey: Guid(58b3895479599f84286c5974c888a6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-19.exr using Guid(58b3895479599f84286c5974c888a6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97cc5d09b3ed8cb845426b40468ec4af') in 0.045540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-20.exr
+  artifactKey: Guid(7b1801d2336a5f64da9c1599ca27d461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-20.exr using Guid(7b1801d2336a5f64da9c1599ca27d461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0164e86a6da2d5d4b555791a06293a9') in 0.049720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000683 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-13.exr
+  artifactKey: Guid(34f9e1787be8d9943b2e47c6a14b83ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-13.exr using Guid(34f9e1787be8d9943b2e47c6a14b83ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39fd5c52f684bc820d3523a4a9f021a5') in 0.061794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-23.exr
+  artifactKey: Guid(762919ea475770941833ccf361734ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-23.exr using Guid(762919ea475770941833ccf361734ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721b43d17a3e610c5853f6502cbc3444') in 0.045100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-1_comp_light.exr
+  artifactKey: Guid(f319c4bb386408644945aafcdeae5a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-1_comp_light.exr using Guid(f319c4bb386408644945aafcdeae5a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de96752830ef954b891226e48ffdad12') in 0.047487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-4_comp_dir.png
+  artifactKey: Guid(80d0c1674a38935429720e7f2ca092f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-4_comp_dir.png using Guid(80d0c1674a38935429720e7f2ca092f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d2d76862e7a7aeedcb108aa82f2ee5') in 0.064960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-9_comp_dir.png
+  artifactKey: Guid(dbfff52776968f34a8d470d15a42efda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-9_comp_dir.png using Guid(dbfff52776968f34a8d470d15a42efda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c675dfdfe7599482852a5c79bc32e06f') in 0.036358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-8.exr
+  artifactKey: Guid(403441ce4c8aead459ebfea1c1c43363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-8.exr using Guid(403441ce4c8aead459ebfea1c1c43363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a3c8d8752930ed586f603eb277e89a') in 0.046355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-12.exr
+  artifactKey: Guid(abb9ec4d74c3e7f4e8f1b7776caa48e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-12.exr using Guid(abb9ec4d74c3e7f4e8f1b7776caa48e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36c16cd094765aee305858c4278b65e') in 0.051679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-22.exr
+  artifactKey: Guid(ef0a3a81907d73f43981a3fd5a1c042f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-22.exr using Guid(ef0a3a81907d73f43981a3fd5a1c042f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b930dcd1ed98313696bb25f51617c78f') in 0.055764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-3_comp_dir.png
+  artifactKey: Guid(11c8ca7808c76284dabf755b2be9af0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-3_comp_dir.png using Guid(11c8ca7808c76284dabf755b2be9af0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88335c48b7ecd9f3fb12b55a2f48cde8') in 0.041944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-14.exr
+  artifactKey: Guid(de52b4bb4a8afc24aabdea388f9ed5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-14.exr using Guid(de52b4bb4a8afc24aabdea388f9ed5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c3e6dba8c748085a9cd54d76ad83d2') in 0.049391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/OcclusionCullingData.asset
+  artifactKey: Guid(cabe1f7111e5a407e8afb935125d81cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/OcclusionCullingData.asset using Guid(cabe1f7111e5a407e8afb935125d81cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9291edc5d61d084bed087c8f042a302f') in 0.026814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-7_comp_light.exr
+  artifactKey: Guid(ea2f4aff20945104294162d43d7f301e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-7_comp_light.exr using Guid(ea2f4aff20945104294162d43d7f301e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c328c579aa69c850799fec7ff2f564') in 0.036884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-11.exr
+  artifactKey: Guid(a8aeb2823a1e41146b5fd667ceaf53f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-11.exr using Guid(a8aeb2823a1e41146b5fd667ceaf53f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1f1b0ecb5eac143dc9a5aa4bfe10bd') in 0.067636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-1.exr
+  artifactKey: Guid(5dc3ad444f3498146b015b78d7fe2231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-1.exr using Guid(5dc3ad444f3498146b015b78d7fe2231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd12afc62005c1767ba7878e8377f3c') in 0.042091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-3_comp_light.exr
+  artifactKey: Guid(318dff96266318f4dbc74c779dc7baf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-3_comp_light.exr using Guid(318dff96266318f4dbc74c779dc7baf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c104a518ffd29a521c0cc2c1a3d9f45') in 0.034669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-5.exr
+  artifactKey: Guid(70146e459a45a294fb80fb8efe109b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-5.exr using Guid(70146e459a45a294fb80fb8efe109b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebea0d4fe927583c3ca282c1479eda1') in 0.039560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-15.exr
+  artifactKey: Guid(ef1b966a47adb854095fd11cefd7a65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-15.exr using Guid(ef1b966a47adb854095fd11cefd7a65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c3732c3d48b2a913ca80a34c1b0427') in 0.068185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-7.exr
+  artifactKey: Guid(9fd22e36bb678424db9c0710c4e16f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-7.exr using Guid(9fd22e36bb678424db9c0710c4e16f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76291f1d98fe76be266279a01c6df79c') in 0.044169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-0_comp_dir.png
+  artifactKey: Guid(6cb067b248bdcc64f807896d640b0e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-0_comp_dir.png using Guid(6cb067b248bdcc64f807896d640b0e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8c8817470fb5319b71d2fc85c19931') in 0.050439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-4_comp_light.exr
+  artifactKey: Guid(dd146bc76d4053742b27b3b9fcd100f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-4_comp_light.exr using Guid(dd146bc76d4053742b27b3b9fcd100f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6c2d9625309c87b1c4834bd71c9f62') in 0.045114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/LightingData.asset
+  artifactKey: Guid(36060b0290761294d8649936ec682673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/LightingData.asset using Guid(36060b0290761294d8649936ec682673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41617dee8f7c4ef6f700d44f4cd2758d') in 0.019201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-0_comp_light.exr
+  artifactKey: Guid(63f4b351e5630e94183bcea730dd8f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-0_comp_light.exr using Guid(63f4b351e5630e94183bcea730dd8f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f58bc1766aa90563003d133ee74b4da') in 0.041410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Camera_high Profile.asset
+  artifactKey: Guid(d96d49029e3294ed18c5f25a54317d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Camera_high Profile.asset using Guid(d96d49029e3294ed18c5f25a54317d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1b816db4707449af7748362fbdbd87') in 0.021777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-21.exr
+  artifactKey: Guid(08291bac010c2ea419cc4e2fd63e9e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-21.exr using Guid(08291bac010c2ea419cc4e2fd63e9e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f738ce04ef21615bd7cc2c2edf3690') in 0.044183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-10.exr
+  artifactKey: Guid(745c78d443f1f5545bb24211a2521f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-10.exr using Guid(745c78d443f1f5545bb24211a2521f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5211ed394033bc3b749ac30c358a02a') in 0.051982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-9_comp_light.exr
+  artifactKey: Guid(186c3646bbbcfcc418555af6adbbdaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-9_comp_light.exr using Guid(186c3646bbbcfcc418555af6adbbdaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f239ebaa0be4c094363d81c42340923') in 0.038103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-5_comp_light.exr
+  artifactKey: Guid(7c03e5433a87813449a2427f6e288a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-5_comp_light.exr using Guid(7c03e5433a87813449a2427f6e288a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7897a53b07e426f759fd56967f26ab') in 0.040134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-6_comp_dir.png
+  artifactKey: Guid(16d7d4736276fd84bb1fd1b3beb45a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-6_comp_dir.png using Guid(16d7d4736276fd84bb1fd1b3beb45a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad011451eef1bf2e757b7f1fe41a634') in 0.040509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-8_comp_dir.png
+  artifactKey: Guid(e63d35935ca38f04e92a8373aa7f215b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-8_comp_dir.png using Guid(e63d35935ca38f04e92a8373aa7f215b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1506ca18bd8f374323fad4b86b545bc9') in 0.040272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-4.exr
+  artifactKey: Guid(72d8bf5215d63c3498d87f35dcb46214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-4.exr using Guid(72d8bf5215d63c3498d87f35dcb46214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2999e37348087bf0ca5d5cb88f77d2') in 0.046596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-24.exr
+  artifactKey: Guid(d12c1d10d89d7ed439f61c226472e8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-24.exr using Guid(d12c1d10d89d7ed439f61c226472e8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51e8a5d75020da3595af66d85f2f1ad') in 0.048491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-7_comp_dir.png
+  artifactKey: Guid(bd9ac69e82dc6d441b51e90a447a7af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-7_comp_dir.png using Guid(bd9ac69e82dc6d441b51e90a447a7af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc6aa22c4b2c540e66fc9703dfe510c') in 0.039443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-1_comp_dir.png
+  artifactKey: Guid(dfb269a5c3db40549b20391a22e0fe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-1_comp_dir.png using Guid(dfb269a5c3db40549b20391a22e0fe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8baa3b2c7de4c2652401c4d8a1a364c4') in 0.045101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-9.exr
+  artifactKey: Guid(dabdbb2e60a907e4da65d1a182821589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-9.exr using Guid(dabdbb2e60a907e4da65d1a182821589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d13d3cc00fea1a76ff66267548f0b5b') in 0.048733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-6.exr
+  artifactKey: Guid(60f61b2bb144cd343b01795fe17df74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-6.exr using Guid(60f61b2bb144cd343b01795fe17df74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a82f8e294affbad3cb12512a36922e') in 0.075147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-17.exr
+  artifactKey: Guid(d1afee587f35ed142930c59282bd0cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-17.exr using Guid(d1afee587f35ed142930c59282bd0cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2e49f5a1401817b05a749ed0ad8eca') in 0.080441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-16.exr
+  artifactKey: Guid(b3e2c4f4074d555478c31b576f4ed40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-16.exr using Guid(b3e2c4f4074d555478c31b576f4ed40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6129790dd3b303939311bb0eec230de') in 0.053776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-2_comp_dir.png
+  artifactKey: Guid(57e2813cc63fbef4e88780228e5cb043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-2_comp_dir.png using Guid(57e2813cc63fbef4e88780228e5cb043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3cffc0b805f576202077cac4dd2dd3') in 0.042337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Volume Profile.asset
+  artifactKey: Guid(f45821973279a43e19ccb82d51a79ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Volume Profile.asset using Guid(f45821973279a43e19ccb82d51a79ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a40faf50104d393204bd658e990937') in 0.024448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-25.exr
+  artifactKey: Guid(c926600409ad94a4897fab42a4a4075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-25.exr using Guid(c926600409ad94a4897fab42a4a4075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8dc7a73e775bb7faced171dfd8cdc80') in 0.048565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-3.exr
+  artifactKey: Guid(663d2640a6717514b98bb04b58121b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-3.exr using Guid(663d2640a6717514b98bb04b58121b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47790c23f992978afd3f822171a2b10b') in 0.046525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000761 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-5_comp_dir.png
+  artifactKey: Guid(616b12d7c743eb244b5ffb75720383e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-5_comp_dir.png using Guid(616b12d7c743eb244b5ffb75720383e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637d163b0cafb0dc3338b93b5cf7361a') in 0.044211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-2.exr
+  artifactKey: Guid(c79464a50a935e54aabbb41487c69f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-2.exr using Guid(c79464a50a935e54aabbb41487c69f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08374c7abd5a7a5467c1d90d4cc2589f') in 0.055061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-2_comp_light.exr
+  artifactKey: Guid(4ba9d0a671633e1439ae656fb4506bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-2_comp_light.exr using Guid(4ba9d0a671633e1439ae656fb4506bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0735ce097a689e24738cbdb963ba22b9') in 0.042466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-8_comp_light.exr
+  artifactKey: Guid(d0fece2ca299aae419beb19ff5d2f772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-8_comp_light.exr using Guid(d0fece2ca299aae419beb19ff5d2f772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb075966b2d8de8a935a2515d36bedc4') in 0.057476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-0.exr
+  artifactKey: Guid(786aacbff05d2224bbf4d657fe0907ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/ReflectionProbe-0.exr using Guid(786aacbff05d2224bbf4d657fe0907ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439b5c92e6eb1b7c26d3f998aeae29ad') in 0.070962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-6_comp_light.exr
+  artifactKey: Guid(c442c4535eb58aa41b2e6a62f29a5008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Lightmap-6_comp_light.exr using Guid(c442c4535eb58aa41b2e6a62f29a5008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bacd1aeea586f02c4f4907a1589c51e') in 0.045035 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.264747 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.536 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7538ms)
+		BeginReloadAssembly (511ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (192ms)
+		EndReloadAssembly (6656ms)
+			LoadAssemblies (480ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1625ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (223ms)
+			SetupLoadedEditorAssemblies (3200ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (389ms)
+				ProcessInitializeOnLoadAttributes (2713ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (34ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (82ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 430.6 MB.
+System memory in use after: 431.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 6421.
+Total: 7.084700 ms (FindLiveObjects: 0.916900 ms CreateObjectMapping: 0.621200 ms MarkObjects: 5.330800 ms  DeleteObjects: 0.213500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 154.628259 seconds.
+  path: Assets/Resources/Viking Village/Scenes/The_Viking_Village/Volume Profile.asset
+  artifactKey: Guid(f45821973279a43e19ccb82d51a79ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/The_Viking_Village/Volume Profile.asset using Guid(f45821973279a43e19ccb82d51a79ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d22e0e3c45d12fe45b6d280fb0f8433') in 0.033918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.309043 seconds.
+  path: Assets/Resources/Viking Village/Scenes/WaterSettingsData.asset
+  artifactKey: Guid(24474788a55dd1b479826b2579d31d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Scenes/WaterSettingsData.asset using Guid(24474788a55dd1b479826b2579d31d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f28e2f8224861364a6d32cd38040e3') in 0.014788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.811582 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Textures/WaterSurface.asset
+  artifactKey: Guid(2bf4e75081aab4b5f88bfb7069f598ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Textures/WaterSurface.asset using Guid(2bf4e75081aab4b5f88bfb7069f598ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e810ede9e3d2520ee98f9e94fb58c9e') in 0.239449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 215.419602 seconds.
+  path: Assets/Resources/Viking Village/Rendering/VikingVillageUniversal.asset
+  artifactKey: Guid(701c012fd7dc64999a5ec8ff0b9b0d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Rendering/VikingVillageUniversal.asset using Guid(701c012fd7dc64999a5ec8ff0b9b0d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ab1733c7e2cdff6f1d242d4ec6b954') in 0.018836 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.044393 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.928 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7930ms)
+		BeginReloadAssembly (336ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (117ms)
+		EndReloadAssembly (7425ms)
+			LoadAssemblies (308ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1906ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (251ms)
+			SetupLoadedEditorAssemblies (3864ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (378ms)
+				ProcessInitializeOnLoadAttributes (3353ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (54ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (132ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4852 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 432.0 MB.
+System memory in use after: 432.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 6443.
+Total: 17.772200 ms (FindLiveObjects: 1.704000 ms CreateObjectMapping: 1.650700 ms MarkObjects: 13.912400 ms  DeleteObjects: 0.499100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 56.282771 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Textures/SurfaceSequence
+  artifactKey: Guid(ac449a7aac54248e496d456cbf1be212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Textures/SurfaceSequence using Guid(ac449a7aac54248e496d456cbf1be212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e352c8ea7f00f22710bf6e0f84c7daae') in 0.040212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Assets/Resources/Viking Village/Boat Attack Water System/Textures
+  artifactKey: Guid(7d239908403484cb08c27667c913706b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Boat Attack Water System/Textures using Guid(7d239908403484cb08c27667c913706b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c46ab5b0991d950714f3a1cb8cfa329') in 0.021147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 330.916530 seconds.
+  path: Assets/Resources/Viking Village/Prefabs/FlyingRigidBodyFPSController.prefab
+  artifactKey: Guid(5f29f207d858fd245b7befaa18ea3284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Viking Village/Prefabs/FlyingRigidBodyFPSController.prefab using Guid(5f29f207d858fd245b7befaa18ea3284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0822b7f392e036ea61c65a2fea385ff4') in 0.116030 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 335.8 MB.
+System memory in use after: 336.2 MB.
+
+Unloading 220 unused Assets to reduce memory usage. Loaded Objects now: 6241.
+Total: 10.012700 ms (FindLiveObjects: 0.815800 ms CreateObjectMapping: 0.412300 ms MarkObjects: 8.212400 ms  DeleteObjects: 0.570300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:srp/default-shader: 00a0da0d000000000000000000000000 -> 0000e00a000e0de00000e000e0000000
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025333 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.672 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3672ms)
+		BeginReloadAssembly (275ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (92ms)
+		EndReloadAssembly (3249ms)
+			LoadAssemblies (221ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (818ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (1756ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (191ms)
+				ProcessInitializeOnLoadAttributes (1512ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (65ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4850 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 432.3 MB.
+System memory in use after: 432.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 6445.
+Total: 7.857300 ms (FindLiveObjects: 1.001100 ms CreateObjectMapping: 0.521500 ms MarkObjects: 6.071500 ms  DeleteObjects: 0.260700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 360.522798 seconds.
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(4e384a94240f61d46a0736239de31b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(4e384a94240f61d46a0736239de31b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5cb9fab82714962f931031128be1ae1') in 0.046081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.544133 seconds.
+  path: Assets/Scenes/Scene2/Scene2.unity
+  artifactKey: Guid(f9448fb14cfa6c9499c39c30a96c1dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene2/Scene2.unity using Guid(f9448fb14cfa6c9499c39c30a96c1dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c34a72b0bdaaab330e34fec5fa40f9') in 0.033025 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018040 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.499 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3500ms)
+		BeginReloadAssembly (284ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (100ms)
+		EndReloadAssembly (3046ms)
+			LoadAssemblies (237ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (882ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (121ms)
+			SetupLoadedEditorAssemblies (1500ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (1296ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (53ms)
+Platform modules already initialized, skipping
+Switching render pipeline 701c012fd7dc64999a5ec8ff0b9b0d69 -> 00000000000000000000000000000000
+Refreshing native plugins compatible for Editor in 2.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4818 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 431.7 MB.
+System memory in use after: 432.1 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 6421.
+Total: 7.209800 ms (FindLiveObjects: 0.842300 ms CreateObjectMapping: 0.463500 ms MarkObjects: 5.668900 ms  DeleteObjects: 0.233200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017968 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\30698\Desktop\RPG-Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 194.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.076 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3077ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (2729ms)
+			LoadAssemblies (176ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (632ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (1601ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (195ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (1225ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Switching render pipeline 701c012fd7dc64999a5ec8ff0b9b0d69 -> 00000000000000000000000000000000
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 408.9 MB.
+System memory in use after: 409.3 MB.
+
+Unloading 279 unused Assets to reduce memory usage. Loaded Objects now: 6164.
+Total: 10.520600 ms (FindLiveObjects: 1.047300 ms CreateObjectMapping: 0.929900 ms MarkObjects: 7.205100 ms  DeleteObjects: 1.336000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 660.417953 seconds.
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(4e384a94240f61d46a0736239de31b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(4e384a94240f61d46a0736239de31b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2742b488ea6ef73c65ac82a947dabcc5') in 0.024874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(047d5e30c44c3f049aa395be665d20dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(047d5e30c44c3f049aa395be665d20dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770d21ba6aea43904e61df5f38f4ae11') in 0.013806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 170.451485 seconds.
+  path: Assets/Resources/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_albedo.tif
+  artifactKey: Guid(7f3df385222f5b1428f6a156037deb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_albedo.tif using Guid(7f3df385222f5b1428f6a156037deb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5474d41b3a7d0a46095860af29a0e377') in 0.103384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.287671 seconds.
+  path: Assets/Resources/Cartoon Heroes
+  artifactKey: Guid(3a2878570d3898a4b80befd17eac56d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cartoon Heroes using Guid(3a2878570d3898a4b80befd17eac56d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29add6375a7a3c4c85fee4b986f5cde') in 0.027497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.227593 seconds.
+  path: Assets/Resources/Cartoon Heroes/Male
+  artifactKey: Guid(8b9b6e637e73c5341beaea90346b0718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cartoon Heroes/Male using Guid(8b9b6e637e73c5341beaea90346b0718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bb73e8ba0a9eb71b8ad7061ddf9480') in 0.017729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.249669 seconds.
+  path: Assets/Resources/Cartoon Heroes/Male/3D
+  artifactKey: Guid(508c5b6a428c4614d93fecb82103dac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cartoon Heroes/Male/3D using Guid(508c5b6a428c4614d93fecb82103dac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2e250b78b0712e50651ecbaa84a5d8') in 0.018328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.815252 seconds.
+  path: Assets/Resources/Cartoon Heroes/Character Prefabs
+  artifactKey: Guid(a027c86982ae9a84db9d9292a2dd2556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cartoon Heroes/Character Prefabs using Guid(a027c86982ae9a84db9d9292a2dd2556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86dee0537e0f93932083227629fa39d') in 0.016324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.906327 seconds.
+  path: Assets/Resources/Cartoon Heroes/Character Prefabs/Male
+  artifactKey: Guid(a94dbda45a3fed340a9b2fff23656bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cartoon Heroes/Character Prefabs/Male using Guid(a94dbda45a3fed340a9b2fff23656bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63e5e4d0e4b918eda06ef8f435a75c1') in 0.007315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056187 seconds.
+  path: Assets/Resources/Cartoon Heroes/Character Prefabs/Male/Male A.prefab
+  artifactKey: Guid(7e6e29f21a00d5f499e21eb93d6fabaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cartoon Heroes/Character Prefabs/Male/Male A.prefab using Guid(7e6e29f21a00d5f499e21eb93d6fabaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392fe6bbf08177eac6ac6fe36993bbb6') in 0.729110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Resources/Cartoon Heroes/Character Prefabs/Male/Male C.prefab
+  artifactKey: Guid(60e8218091f83244c9bf9c8c2569a009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cartoon Heroes/Character Prefabs/Male/Male C.prefab using Guid(60e8218091f83244c9bf9c8c2569a009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f2e08b7ae4293ceb839f1037a1b98f') in 0.535980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/Resources/Cartoon Heroes/Character Prefabs/Male/Male B.prefab
+  artifactKey: Guid(f933c455b886ad644b60dc415ab31bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cartoon Heroes/Character Prefabs/Male/Male B.prefab using Guid(f933c455b886ad644b60dc415ab31bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557088f1f7ea7c8d7dd90a56647b96cd') in 0.259673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.308703 seconds.
+  path: Assets/Scenes/TownScene/NavMesh.asset
+  artifactKey: Guid(7c509dca840ea784484c6b6558afe30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TownScene/NavMesh.asset using Guid(7c509dca840ea784484c6b6558afe30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4e7f2224f62efb1b1325322518d7ff') in 0.031079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/Scenes/TownScene/TownTerrain.asset
+  artifactKey: Guid(ac258032f2089a8458740216bf79cfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TownScene/TownTerrain.asset using Guid(ac258032f2089a8458740216bf79cfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7d4c315081308a431dea053b3f8406') in 0.118055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.606160 seconds.
+  path: Assets/Scenes/TownScene/TownScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TownScene/TownScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c90aee0c52ec11cf71189a9fe6eea7') in 0.014622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.835208 seconds.
+  path: Assets/Resources/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop.spm
+  artifactKey: Guid(c91c1eb85782d5748ace27eb4d7415bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop.spm using Guid(c91c1eb85782d5748ace27eb4d7415bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ceb3cda41a0dae42189cfbfb2c7e20') in 0.216756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Resources/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop.spm
+  artifactKey: Guid(d027af1092f6b434090f040565e7e656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop.spm using Guid(d027af1092f6b434090f040565e7e656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831b22e640e5fc7dee53b7424a03d878') in 0.179331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Resources/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile.spm
+  artifactKey: Guid(6aab193b7693b5e4c9741f1917d2987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile.spm using Guid(6aab193b7693b5e4c9741f1917d2987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1eafd481facf74f03fcfeed6b99e8fa') in 0.128875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Resources/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop.spm
+  artifactKey: Guid(469edab27ab6d004d84af2c4a851bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop.spm using Guid(469edab27ab6d004d84af2c4a851bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd3e5ed67a26584ba3049431901bf69') in 0.195782 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
