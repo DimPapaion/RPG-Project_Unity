@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 22
-  productGUID: d20dff292aac40e4cb52bc77bb20cc77
+  productGUID: 43771b2a421148041bd7c39c2fdaeb28
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -148,7 +148,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.unity3d.vikingVillageURP
-    Standalone: com.DefaultCompany.RPG-Project
+    Standalone: com.UnityTechnologies.VikingVillage
     iPhone: com.Company.ProductName
     tvOS: com.Company.ProductName
   buildNumber:
@@ -707,8 +707,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 3
   m_MobileRenderingPath: 1
-  metroPackageName: SkyshopProject1
-  metroPackageVersion: 1.0.0.0
+  metroPackageName: Skyshop Project 1
+  metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -716,7 +716,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Skyshop Project 1
   wsaImages: {}
-  metroTileShortName: RPG-Project
+  metroTileShortName: 
   metroTileShowName: 1
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
