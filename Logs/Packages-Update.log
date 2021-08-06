@@ -64,3 +64,11 @@ The following packages were added:
   com.unity.2d.tilemap@1.0.0
   com.unity.postprocessing@2.3.0
   com.unity.progrids@3.0.3-preview.4
+
+=== Fri Aug  6 12:50:20 2021
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.render-pipelines.high-definition@8.2.0
